@@ -1,0 +1,3090 @@
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+index 26d3352..0000000
+--- a/.idea/.gitignore
++++ /dev/null
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+diff --git a/.idea/E-Commerce-Service.iml b/.idea/E-Commerce-Service.iml
+deleted file mode 100644
+index 4a4ce55..0000000
+--- a/.idea/E-Commerce-Service.iml
++++ /dev/null
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+-</module>
+\ No newline at end of file
+diff --git a/.idea/checkstyle-idea.xml b/.idea/checkstyle-idea.xml
+deleted file mode 100644
+index 25a0edc..0000000
+--- a/.idea/checkstyle-idea.xml
++++ /dev/null
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CheckStyle-IDEA">
+-    <option name="configuration">
+-      <map>
+-        <entry key="checkstyle-version" value="9.2.1" />
+-        <entry key="copy-libs" value="true" />
+-        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+-        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+-        <entry key="scan-before-checkin" value="false" />
+-        <entry key="scanscope" value="JavaOnly" />
+-        <entry key="suppress-errors" value="false" />
+-      </map>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+deleted file mode 100644
+index b8bc2ec..0000000
+--- a/.idea/compiler.xml
++++ /dev/null
+@@ -1,25 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <annotationProcessing>
+-      <profile default="true" name="Default" enabled="true" />
+-      <profile name="Maven default annotation processors profile" enabled="true">
+-        <sourceOutputDir name="target/generated-sources/annotations" />
+-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+-        <outputRelativeToContentRoot value="true" />
+-        <module name="ShoopingApp" />
+-        <module name="ProjectE-CommerceService" />
+-        <module name="E-Commerce-Service" />
+-        <module name="E-Commerce-Service-master" />
+-      </profile>
+-    </annotationProcessing>
+-  </component>
+-  <component name="JavacSettings">
+-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+-      <module name="E-Commerce-Service" options="-parameters" />
+-      <module name="E-Commerce-Service-master" options="-parameters" />
+-      <module name="ProjectE-CommerceService" options="-parameters" />
+-      <module name="ShoopingApp" options="-parameters" />
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+index 63e9001..0000000
+--- a/.idea/encodings.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+deleted file mode 100644
+index 712ab9d..0000000
+--- a/.idea/jarRepositories.xml
++++ /dev/null
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Central Repository" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+deleted file mode 100644
+index 898e07a..0000000
+--- a/.idea/jpa-buddy.xml
++++ /dev/null
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="JpaBuddyIdeaProjectConfig">
+-    <option name="defaultUnitInitialized" value="true" />
+-    <option name="renamerInitialized" value="true" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+index 010c400..0000000
+--- a/.idea/misc.xml
++++ /dev/null
+@@ -1,17 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="MavenProjectsManager">
+-    <option name="originalFiles">
+-      <list>
+-        <option value="$PROJECT_DIR$/pom.xml" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="jpab" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/sonarlint/issuestore/3/3/33e4940142782b846807771b19699914d6f16b3c b/.idea/sonarlint/issuestore/3/3/33e4940142782b846807771b19699914d6f16b3c
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/.idea/sonarlint/issuestore/4/1/4188edf37abd87f8dc4469025007109e7548aadd b/.idea/sonarlint/issuestore/4/1/4188edf37abd87f8dc4469025007109e7548aadd
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec b/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/.idea/sonarlint/issuestore/c/4/c4993a019a4fa3a70fa38dd8fa01e2ecfd905df8 b/.idea/sonarlint/issuestore/c/4/c4993a019a4fa3a70fa38dd8fa01e2ecfd905df8
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/.idea/sonarlint/issuestore/d/3/d35bd785dbe6c5ee7038e0344276f1dca98c0252 b/.idea/sonarlint/issuestore/d/3/d35bd785dbe6c5ee7038e0344276f1dca98c0252
+deleted file mode 100644
+index e69de29..0000000
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+deleted file mode 100644
+index feef9e2..0000000
+--- a/.idea/sonarlint/issuestore/index.pb
++++ /dev/null
+@@ -1,11 +0,0 @@
+-
+-{
+-Ksrc/main/java/com/alexandertutoriales/ecommerce/service/entity/Cliente.java,d\3\d35bd785dbe6c5ee7038e0344276f1dca98c0252
+-�
+-_src/main/java/com/alexandertutoriales/ecommerce/service/repository/DetallePedidoRepository.java,3\3\33e4940142782b846807771b19699914d6f16b3c
+-�
+-Xsrc/main/java/com/alexandertutoriales/ecommerce/service/repository/PedidoRepository.java,4\1\4188edf37abd87f8dc4469025007109e7548aadd
+-|
+-Lsrc/main/java/com/alexandertutoriales/ecommerce/service/entity/Platillo.java,c\4\c4993a019a4fa3a70fa38dd8fa01e2ecfd905df8
+-7
+-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+\ No newline at end of file
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+index 2b63946..0000000
+--- a/.idea/uiDesigner.xml
++++ /dev/null
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+index 35eb1dd..0000000
+--- a/.idea/vcs.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/dump-bd_ecommerce-202211112005.sql b/dump-bd_ecommerce-202211112005.sql
+deleted file mode 100644
+index ae76c8b..0000000
+--- a/dump-bd_ecommerce-202211112005.sql
++++ /dev/null
+@@ -1,247 +0,0 @@
+--- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
+---
+--- Host: localhost    Database: bd_ecommerce
+--- ------------------------------------------------------
+--- Server version	8.0.31
+-
+-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+-/*!50503 SET NAMES utf8mb4 */;
+-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+-/*!40103 SET TIME_ZONE='+00:00' */;
+-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+-
+---
+--- Table structure for table `categoria`
+---
+-
+-DROP TABLE IF EXISTS `categoria`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `categoria` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `nombre` varchar(100) DEFAULT NULL,
+-  `vigencia` bit(1) DEFAULT NULL,
+-  `foto_id` bigint DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FKbyh5eextelhhs5gyxj7giuspd` (`foto_id`),
+-  CONSTRAINT `FKbyh5eextelhhs5gyxj7giuspd` FOREIGN KEY (`foto_id`) REFERENCES `documento_almacenado` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `categoria`
+---
+-
+-LOCK TABLES `categoria` WRITE;
+-/*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
+-INSERT INTO `categoria` VALUES (1,'Hogar',_binary '',10),(2,'Farmacia',_binary '',11),(3,'Restaurante',_binary '',13),(4,'Ferreteria',_binary '',12);
+-/*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `cliente`
+---
+-
+-DROP TABLE IF EXISTS `cliente`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `cliente` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `apellido_materno` varchar(100) DEFAULT NULL,
+-  `apellido_paterno` varchar(100) DEFAULT NULL,
+-  `departamento` varchar(100) DEFAULT NULL,
+-  `direccion_envio` varchar(500) DEFAULT NULL,
+-  `distrito` varchar(100) DEFAULT NULL,
+-  `nombres` varchar(100) DEFAULT NULL,
+-  `num_doc` varchar(11) DEFAULT NULL,
+-  `ciudad` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+-  `telefono` varchar(9) DEFAULT NULL,
+-  `tipo_doc` varchar(20) DEFAULT NULL,
+-  `foto_id` bigint DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FKorx40wtfkkqg46bht8mt4vb3a` (`foto_id`),
+-  CONSTRAINT `FKorx40wtfkkqg46bht8mt4vb3a` FOREIGN KEY (`foto_id`) REFERENCES `documento_almacenado` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `cliente`
+---
+-
+-LOCK TABLES `cliente` WRITE;
+-/*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
+-INSERT INTO `cliente` VALUES (2,'Alba','Forero','Cundinamarca','Avenida Siempre','Engativa','Jean','123456','Bogota','654321','CC',1),(3,'forero','forero','Lambayeque','asdf','Ferreñafe','jorge','55555','Chiclayo','55556','DNI',2),(4,'alba','foreroo','Lambayeque','asdas','Ferreñafe','jorge','55556','Chiclayo','55559','DNI',6);
+-/*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `detalle_pedido`
+---
+-
+-DROP TABLE IF EXISTS `detalle_pedido`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `detalle_pedido` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `cantidad` int DEFAULT NULL,
+-  `precio` double DEFAULT NULL,
+-  `item_id` int DEFAULT NULL,
+-  `pedido_id` int DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FKqo6dpjql5wwuhf11fouj94gdh` (`item_id`),
+-  KEY `FKgqvba9e7dildyw45u0usdj1k2` (`pedido_id`),
+-  CONSTRAINT `FKgqvba9e7dildyw45u0usdj1k2` FOREIGN KEY (`pedido_id`) REFERENCES `pedido` (`id`),
+-  CONSTRAINT `FKqo6dpjql5wwuhf11fouj94gdh` FOREIGN KEY (`item_id`) REFERENCES `item` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `detalle_pedido`
+---
+-
+-LOCK TABLES `detalle_pedido` WRITE;
+-/*!40000 ALTER TABLE `detalle_pedido` DISABLE KEYS */;
+-INSERT INTO `detalle_pedido` VALUES (1,1,6500,1,1),(2,1,8500,2,1),(3,3,8500,2,2),(4,1,8500,2,3),(5,2,8500,2,4),(6,2,4500,3,4),(7,8,8500,2,5);
+-/*!40000 ALTER TABLE `detalle_pedido` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `documento_almacenado`
+---
+-
+-DROP TABLE IF EXISTS `documento_almacenado`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `documento_almacenado` (
+-  `id` bigint NOT NULL AUTO_INCREMENT,
+-  `eliminado` bit(1) NOT NULL,
+-  `estado` varchar(255) DEFAULT NULL,
+-  `extension` varchar(255) DEFAULT NULL,
+-  `file_name` varchar(255) DEFAULT NULL,
+-  `nombre` varchar(255) DEFAULT NULL,
+-  PRIMARY KEY (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `documento_almacenado`
+---
+-
+-LOCK TABLES `documento_almacenado` WRITE;
+-/*!40000 ALTER TABLE `documento_almacenado` DISABLE KEYS */;
+-INSERT INTO `documento_almacenado` VALUES (1,_binary '\0','A','.jpg','468bc133-4b68-4a20-8d8d-ac6463d962fe','jean'),(2,_binary '\0','A','.jpg','86672ff9-464a-4519-a889-bad6f26773ef','profilePh8122022194053'),(3,_binary '\0','A','.jpg','7b7cba3c-adde-4353-bfd6-4d7576c772c1','profilePh8122022194252'),(4,_binary '\0','A','.jpg','9de06d34-1783-4808-bc2a-78c701b72ded','profilePh8122022194322'),(5,_binary '\0','A','.jpg','d61dbbee-b82b-4f3d-9a1d-6d6af6278da7','profilePh8122022194432'),(6,_binary '\0','A','.jpg','f9aeedc7-a6f1-40ce-8a8b-1b227e460dd1','profilePh8122022194449'),(7,_binary '\0','A','.jpg','93dd493e-4916-4467-8bf7-3d74603df1c5','profilePh8122022194525'),(8,_binary '\0','A','.jpg','79a1085d-0c0b-4f5f-b9a0-da003c064d19','profilePh8122022194539'),(9,_binary '\0','A','.jpg','fccdf875-74f8-4cf4-839e-912ea97b6991','profilePh812202219461'),(10,_binary '\0','A','.jpg','ea6bd6d8-8ac3-409e-8852-452c89311ab3','hogarcat'),(11,_binary '\0','A','.jpg','0da980a2-e6c9-43d0-9c9a-1b9378b5eb21','farmaciacat'),(12,_binary '\0','A','.jpg','8822a26b-a659-412d-ab22-e3ce9204aae1','ferreteriacat'),(13,_binary '\0','A','.jpg','e8232d4f-9c7f-498b-90f5-532584168557','restaurantecat'),(14,_binary '\0','A','.png','180b546e-2921-4fde-b5aa-bf067b8e3565','limpiavidrios'),(15,_binary '\0','A','.jpg','a8585294-e056-4d1c-b4c8-125ac632c4ce','escoba'),(16,_binary '\0','A','.png','a529202e-0023-4fe3-a3e6-15b0b429b7b4','acetaminofen'),(17,_binary '\0','A','.png','496386ba-ce45-46ea-9d87-d4bad637f50a','perro'),(18,_binary '\0','A','.png','12ceca9e-d9ae-4c74-a82e-39c49dc6c968','comboperro'),(19,_binary '\0','A','.jpg','09672b49-8a0b-4142-be4e-068fb723a203','hamburguesa'),(20,_binary '\0','A','.jpg','75c63aca-de9a-4e4c-8992-19eeec200196','combohamburguesa'),(21,_binary '\0','A','.jpg','1dbcd115-2194-49eb-973a-49f86ae9dcc9','pizza'),(22,_binary '\0','A','.jpg','b7c92e75-9d0d-49ae-97f2-eb8c9bc072de','gaseosa'),(23,_binary '\0','A','.jpg','51c179ed-bfff-40b3-b1ad-8a8591a05027','combopizza');
+-/*!40000 ALTER TABLE `documento_almacenado` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `item`
+---
+-
+-DROP TABLE IF EXISTS `item`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `item` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `descripcion_item` varchar(500) DEFAULT NULL,
+-  `nombre` varchar(100) DEFAULT NULL,
+-  `precio` double DEFAULT NULL,
+-  `recomendado` bit(1) DEFAULT NULL,
+-  `stock` int DEFAULT NULL,
+-  `vigencia` bit(1) DEFAULT NULL,
+-  `categoria_id` int DEFAULT NULL,
+-  `foto_id` bigint DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FKgunwc9qk1hc1yt3qk6urk2gfh` (`categoria_id`),
+-  KEY `FK4bwtfto5mqr0pyoipqrvfbtmh` (`foto_id`),
+-  CONSTRAINT `FK4bwtfto5mqr0pyoipqrvfbtmh` FOREIGN KEY (`foto_id`) REFERENCES `documento_almacenado` (`id`),
+-  CONSTRAINT `FKgunwc9qk1hc1yt3qk6urk2gfh` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `item`
+---
+-
+-LOCK TABLES `item` WRITE;
+-/*!40000 ALTER TABLE `item` DISABLE KEYS */;
+-INSERT INTO `item` VALUES (1,'Limpiador de vidrios Suramar','Limpiavidrios',6500,_binary '\0',20,_binary '',1,14),(2,'Escoba Fuller','Escoba',8500,_binary '',-4,_binary '',1,15),(3,'Acetaminofen MK','Acetaminofen',4500,_binary '',8,_binary '',2,16),(4,'Perro Caliente','Perro Caliente',12500,_binary '',10,_binary '',3,17),(5,'Combo Perro','Combo Perro',12500,_binary '',10,_binary '',3,18),(6,'Hmaburguesa','hamburuesa',12500,_binary '',10,_binary '',3,19),(7,'Combo Hamburguesa','Combo Hamburguesa',19500,_binary '',10,_binary '',3,20),(8,'Gaseosa 400 ml Coca Cola','Gaseosa 400 ml',4500,_binary '\0',100,_binary '',3,22),(9,'Pizza','Pizza',6500,_binary '\0',100,_binary '',3,21),(10,'Combo Pizza','Combo Pizza',9500,_binary '',100,_binary '',3,23);
+-/*!40000 ALTER TABLE `item` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `pedido`
+---
+-
+-DROP TABLE IF EXISTS `pedido`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `pedido` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `anular_pedido` bit(1) DEFAULT NULL,
+-  `fecha_compra` datetime DEFAULT NULL,
+-  `monto` double DEFAULT NULL,
+-  `cliente_id` int DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FK30s8j2ktpay6of18lbyqn3632` (`cliente_id`),
+-  CONSTRAINT `FK30s8j2ktpay6of18lbyqn3632` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `pedido`
+---
+-
+-LOCK TABLES `pedido` WRITE;
+-/*!40000 ALTER TABLE `pedido` DISABLE KEYS */;
+-INSERT INTO `pedido` VALUES (1,_binary '','2022-11-10 15:16:32',15000,2),(2,_binary '\0','2022-11-11 09:54:52',25500,2),(3,_binary '\0','2022-11-11 10:11:11',8500,2),(4,_binary '\0','2022-11-11 10:45:39',26000,2),(5,_binary '\0','2022-11-11 11:13:44',68000,2);
+-/*!40000 ALTER TABLE `pedido` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Table structure for table `usuario`
+---
+-
+-DROP TABLE IF EXISTS `usuario`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!50503 SET character_set_client = utf8mb4 */;
+-CREATE TABLE `usuario` (
+-  `id` int NOT NULL AUTO_INCREMENT,
+-  `clave` varchar(20) DEFAULT NULL,
+-  `email` varchar(500) DEFAULT NULL,
+-  `vigencia` bit(1) DEFAULT NULL,
+-  `cliente_id` int DEFAULT NULL,
+-  PRIMARY KEY (`id`),
+-  KEY `FKp3dqdf5mc3lqr5y9p3b0omjl9` (`cliente_id`),
+-  CONSTRAINT `FKp3dqdf5mc3lqr5y9p3b0omjl9` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`id`)
+-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `usuario`
+---
+-
+-LOCK TABLES `usuario` WRITE;
+-/*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
+-INSERT INTO `usuario` VALUES (1,'123456','jf@gmail.com',_binary '',2),(2,'123456','jorge',_binary '',3),(3,'123456','jorge2',_binary '',4);
+-/*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
+-UNLOCK TABLES;
+-
+---
+--- Dumping routines for database 'bd_ecommerce'
+---
+-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+-
+-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+-
+--- Dump completed on 2022-11-11 20:05:40
+diff --git a/files/uploads/JPG/09672b49-8a0b-4142-be4e-068fb723a203.jpg b/files/uploads/JPG/09672b49-8a0b-4142-be4e-068fb723a203.jpg
+deleted file mode 100644
+index 2a9f518..0000000
+Binary files a/files/uploads/JPG/09672b49-8a0b-4142-be4e-068fb723a203.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/0da980a2-e6c9-43d0-9c9a-1b9378b5eb21.jpg b/files/uploads/JPG/0da980a2-e6c9-43d0-9c9a-1b9378b5eb21.jpg
+deleted file mode 100644
+index 6f81c3e..0000000
+Binary files a/files/uploads/JPG/0da980a2-e6c9-43d0-9c9a-1b9378b5eb21.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/0e50bd47-3325-40ef-976e-3b8394a76c58.jpg b/files/uploads/JPG/0e50bd47-3325-40ef-976e-3b8394a76c58.jpg
+deleted file mode 100644
+index e58f5a6..0000000
+Binary files a/files/uploads/JPG/0e50bd47-3325-40ef-976e-3b8394a76c58.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/0fa5c76a-521e-4fb5-b9c9-1d84a183d892.jpg b/files/uploads/JPG/0fa5c76a-521e-4fb5-b9c9-1d84a183d892.jpg
+deleted file mode 100644
+index 9ae58fd..0000000
+Binary files a/files/uploads/JPG/0fa5c76a-521e-4fb5-b9c9-1d84a183d892.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/1dbcd115-2194-49eb-973a-49f86ae9dcc9.jpg b/files/uploads/JPG/1dbcd115-2194-49eb-973a-49f86ae9dcc9.jpg
+deleted file mode 100644
+index 332efdd..0000000
+Binary files a/files/uploads/JPG/1dbcd115-2194-49eb-973a-49f86ae9dcc9.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/2ef59ec9-d6f4-4dbc-b2ef-050ec63231d7.jpg b/files/uploads/JPG/2ef59ec9-d6f4-4dbc-b2ef-050ec63231d7.jpg
+deleted file mode 100644
+index 5d10204..0000000
+Binary files a/files/uploads/JPG/2ef59ec9-d6f4-4dbc-b2ef-050ec63231d7.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/37813d3d-da13-4777-bf14-da55f376e69b.jpg b/files/uploads/JPG/37813d3d-da13-4777-bf14-da55f376e69b.jpg
+deleted file mode 100644
+index 12f4f09..0000000
+Binary files a/files/uploads/JPG/37813d3d-da13-4777-bf14-da55f376e69b.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/4639df6f-cf9a-47e6-9479-a1fd0717467e.jpg b/files/uploads/JPG/4639df6f-cf9a-47e6-9479-a1fd0717467e.jpg
+deleted file mode 100644
+index 5404707..0000000
+Binary files a/files/uploads/JPG/4639df6f-cf9a-47e6-9479-a1fd0717467e.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/468bc133-4b68-4a20-8d8d-ac6463d962fe.jpg b/files/uploads/JPG/468bc133-4b68-4a20-8d8d-ac6463d962fe.jpg
+deleted file mode 100644
+index dbbdfdd..0000000
+Binary files a/files/uploads/JPG/468bc133-4b68-4a20-8d8d-ac6463d962fe.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/51bae59b-a942-44a5-bc51-d7025c742603.jpg b/files/uploads/JPG/51bae59b-a942-44a5-bc51-d7025c742603.jpg
+deleted file mode 100644
+index ad1c8bb..0000000
+Binary files a/files/uploads/JPG/51bae59b-a942-44a5-bc51-d7025c742603.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/51c179ed-bfff-40b3-b1ad-8a8591a05027.jpg b/files/uploads/JPG/51c179ed-bfff-40b3-b1ad-8a8591a05027.jpg
+deleted file mode 100644
+index 9241233..0000000
+Binary files a/files/uploads/JPG/51c179ed-bfff-40b3-b1ad-8a8591a05027.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/569ef8c3-0c11-4047-9218-d7094d39406d.jpg b/files/uploads/JPG/569ef8c3-0c11-4047-9218-d7094d39406d.jpg
+deleted file mode 100644
+index 71e42ef..0000000
+Binary files a/files/uploads/JPG/569ef8c3-0c11-4047-9218-d7094d39406d.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/6c4c025f-b186-44aa-8287-b69f3d375c99.jpg b/files/uploads/JPG/6c4c025f-b186-44aa-8287-b69f3d375c99.jpg
+deleted file mode 100644
+index 5404707..0000000
+Binary files a/files/uploads/JPG/6c4c025f-b186-44aa-8287-b69f3d375c99.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/75c63aca-de9a-4e4c-8992-19eeec200196.jpg b/files/uploads/JPG/75c63aca-de9a-4e4c-8992-19eeec200196.jpg
+deleted file mode 100644
+index f4dbdfd..0000000
+Binary files a/files/uploads/JPG/75c63aca-de9a-4e4c-8992-19eeec200196.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/79a1085d-0c0b-4f5f-b9a0-da003c064d19.jpg b/files/uploads/JPG/79a1085d-0c0b-4f5f-b9a0-da003c064d19.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/79a1085d-0c0b-4f5f-b9a0-da003c064d19.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/7b7cba3c-adde-4353-bfd6-4d7576c772c1.jpg b/files/uploads/JPG/7b7cba3c-adde-4353-bfd6-4d7576c772c1.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/7b7cba3c-adde-4353-bfd6-4d7576c772c1.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/83d1334e-549d-4144-a438-bf5b5ff495f8.jpg b/files/uploads/JPG/83d1334e-549d-4144-a438-bf5b5ff495f8.jpg
+deleted file mode 100644
+index 32da006..0000000
+Binary files a/files/uploads/JPG/83d1334e-549d-4144-a438-bf5b5ff495f8.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/8609515d-d99c-406e-9729-abdf1f00175d.jpg b/files/uploads/JPG/8609515d-d99c-406e-9729-abdf1f00175d.jpg
+deleted file mode 100644
+index 35cb268..0000000
+Binary files a/files/uploads/JPG/8609515d-d99c-406e-9729-abdf1f00175d.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/86672ff9-464a-4519-a889-bad6f26773ef.jpg b/files/uploads/JPG/86672ff9-464a-4519-a889-bad6f26773ef.jpg
+deleted file mode 100644
+index 81587bd..0000000
+Binary files a/files/uploads/JPG/86672ff9-464a-4519-a889-bad6f26773ef.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/8822a26b-a659-412d-ab22-e3ce9204aae1.jpg b/files/uploads/JPG/8822a26b-a659-412d-ab22-e3ce9204aae1.jpg
+deleted file mode 100644
+index eda972b..0000000
+Binary files a/files/uploads/JPG/8822a26b-a659-412d-ab22-e3ce9204aae1.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/93dd493e-4916-4467-8bf7-3d74603df1c5.jpg b/files/uploads/JPG/93dd493e-4916-4467-8bf7-3d74603df1c5.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/93dd493e-4916-4467-8bf7-3d74603df1c5.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/9de06d34-1783-4808-bc2a-78c701b72ded.jpg b/files/uploads/JPG/9de06d34-1783-4808-bc2a-78c701b72ded.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/9de06d34-1783-4808-bc2a-78c701b72ded.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/a8585294-e056-4d1c-b4c8-125ac632c4ce.jpg b/files/uploads/JPG/a8585294-e056-4d1c-b4c8-125ac632c4ce.jpg
+deleted file mode 100644
+index c450e65..0000000
+Binary files a/files/uploads/JPG/a8585294-e056-4d1c-b4c8-125ac632c4ce.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/b7c92e75-9d0d-49ae-97f2-eb8c9bc072de.jpg b/files/uploads/JPG/b7c92e75-9d0d-49ae-97f2-eb8c9bc072de.jpg
+deleted file mode 100644
+index 5b765ca..0000000
+Binary files a/files/uploads/JPG/b7c92e75-9d0d-49ae-97f2-eb8c9bc072de.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/d61dbbee-b82b-4f3d-9a1d-6d6af6278da7.jpg b/files/uploads/JPG/d61dbbee-b82b-4f3d-9a1d-6d6af6278da7.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/d61dbbee-b82b-4f3d-9a1d-6d6af6278da7.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/deae804f-6163-4860-9a5c-0ed78c5e191c.jpg b/files/uploads/JPG/deae804f-6163-4860-9a5c-0ed78c5e191c.jpg
+deleted file mode 100644
+index dbbdfdd..0000000
+Binary files a/files/uploads/JPG/deae804f-6163-4860-9a5c-0ed78c5e191c.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/e8232d4f-9c7f-498b-90f5-532584168557.jpg b/files/uploads/JPG/e8232d4f-9c7f-498b-90f5-532584168557.jpg
+deleted file mode 100644
+index 34125f7..0000000
+Binary files a/files/uploads/JPG/e8232d4f-9c7f-498b-90f5-532584168557.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/ea6bd6d8-8ac3-409e-8852-452c89311ab3.jpg b/files/uploads/JPG/ea6bd6d8-8ac3-409e-8852-452c89311ab3.jpg
+deleted file mode 100644
+index 9fc5b84..0000000
+Binary files a/files/uploads/JPG/ea6bd6d8-8ac3-409e-8852-452c89311ab3.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/eeeee85a-48b7-48a7-8227-22fe10d27e3b.jpg b/files/uploads/JPG/eeeee85a-48b7-48a7-8227-22fe10d27e3b.jpg
+deleted file mode 100644
+index 5b765ca..0000000
+Binary files a/files/uploads/JPG/eeeee85a-48b7-48a7-8227-22fe10d27e3b.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/f72e4020-972e-4372-9101-813fa2186986.jpg b/files/uploads/JPG/f72e4020-972e-4372-9101-813fa2186986.jpg
+deleted file mode 100644
+index 5404707..0000000
+Binary files a/files/uploads/JPG/f72e4020-972e-4372-9101-813fa2186986.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/f9aeedc7-a6f1-40ce-8a8b-1b227e460dd1.jpg b/files/uploads/JPG/f9aeedc7-a6f1-40ce-8a8b-1b227e460dd1.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/f9aeedc7-a6f1-40ce-8a8b-1b227e460dd1.jpg and /dev/null differ
+diff --git a/files/uploads/JPG/fccdf875-74f8-4cf4-839e-912ea97b6991.jpg b/files/uploads/JPG/fccdf875-74f8-4cf4-839e-912ea97b6991.jpg
+deleted file mode 100644
+index 1dc8b4e..0000000
+Binary files a/files/uploads/JPG/fccdf875-74f8-4cf4-839e-912ea97b6991.jpg and /dev/null differ
+diff --git a/files/uploads/PNG/12ceca9e-d9ae-4c74-a82e-39c49dc6c968.png b/files/uploads/PNG/12ceca9e-d9ae-4c74-a82e-39c49dc6c968.png
+deleted file mode 100644
+index b2c78d8..0000000
+Binary files a/files/uploads/PNG/12ceca9e-d9ae-4c74-a82e-39c49dc6c968.png and /dev/null differ
+diff --git a/files/uploads/PNG/180b546e-2921-4fde-b5aa-bf067b8e3565.png b/files/uploads/PNG/180b546e-2921-4fde-b5aa-bf067b8e3565.png
+deleted file mode 100644
+index 11e7178..0000000
+Binary files a/files/uploads/PNG/180b546e-2921-4fde-b5aa-bf067b8e3565.png and /dev/null differ
+diff --git a/files/uploads/PNG/353d7d4d-8e02-4acc-a311-35664c574b72.png b/files/uploads/PNG/353d7d4d-8e02-4acc-a311-35664c574b72.png
+deleted file mode 100644
+index 5d65399..0000000
+Binary files a/files/uploads/PNG/353d7d4d-8e02-4acc-a311-35664c574b72.png and /dev/null differ
+diff --git a/files/uploads/PNG/42402522-20fe-4492-8632-d3cffbfa79df.png b/files/uploads/PNG/42402522-20fe-4492-8632-d3cffbfa79df.png
+deleted file mode 100644
+index bf41bf6..0000000
+Binary files a/files/uploads/PNG/42402522-20fe-4492-8632-d3cffbfa79df.png and /dev/null differ
+diff --git a/files/uploads/PNG/496386ba-ce45-46ea-9d87-d4bad637f50a.png b/files/uploads/PNG/496386ba-ce45-46ea-9d87-d4bad637f50a.png
+deleted file mode 100644
+index 484d79f..0000000
+Binary files a/files/uploads/PNG/496386ba-ce45-46ea-9d87-d4bad637f50a.png and /dev/null differ
+diff --git a/files/uploads/PNG/4ccffdc9-7beb-4d7b-9056-1a92414c0fb7.png b/files/uploads/PNG/4ccffdc9-7beb-4d7b-9056-1a92414c0fb7.png
+deleted file mode 100644
+index 3362cac..0000000
+Binary files a/files/uploads/PNG/4ccffdc9-7beb-4d7b-9056-1a92414c0fb7.png and /dev/null differ
+diff --git a/files/uploads/PNG/56b67c0f-94f3-4366-bf36-f376119d4f06.png b/files/uploads/PNG/56b67c0f-94f3-4366-bf36-f376119d4f06.png
+deleted file mode 100644
+index bcebdc1..0000000
+Binary files a/files/uploads/PNG/56b67c0f-94f3-4366-bf36-f376119d4f06.png and /dev/null differ
+diff --git a/files/uploads/PNG/5b21f3a6-b117-445a-9155-e1d4d1a2d072.png b/files/uploads/PNG/5b21f3a6-b117-445a-9155-e1d4d1a2d072.png
+deleted file mode 100644
+index 639740a..0000000
+Binary files a/files/uploads/PNG/5b21f3a6-b117-445a-9155-e1d4d1a2d072.png and /dev/null differ
+diff --git a/files/uploads/PNG/6a3acd4d-a554-4b0d-ba34-8512021d0a5b.png b/files/uploads/PNG/6a3acd4d-a554-4b0d-ba34-8512021d0a5b.png
+deleted file mode 100644
+index 2818c1b..0000000
+Binary files a/files/uploads/PNG/6a3acd4d-a554-4b0d-ba34-8512021d0a5b.png and /dev/null differ
+diff --git a/files/uploads/PNG/7d743dab-55f0-4e2e-84f6-01f968da1c57.png b/files/uploads/PNG/7d743dab-55f0-4e2e-84f6-01f968da1c57.png
+deleted file mode 100644
+index 11dc22c..0000000
+Binary files a/files/uploads/PNG/7d743dab-55f0-4e2e-84f6-01f968da1c57.png and /dev/null differ
+diff --git a/files/uploads/PNG/89a37742-9eb2-4727-95a5-aa59eb713908.png b/files/uploads/PNG/89a37742-9eb2-4727-95a5-aa59eb713908.png
+deleted file mode 100644
+index 65a5202..0000000
+Binary files a/files/uploads/PNG/89a37742-9eb2-4727-95a5-aa59eb713908.png and /dev/null differ
+diff --git a/files/uploads/PNG/93b013a8-5801-4d8c-9ebe-7c3f2ee52ae5.png b/files/uploads/PNG/93b013a8-5801-4d8c-9ebe-7c3f2ee52ae5.png
+deleted file mode 100644
+index 5008ca4..0000000
+Binary files a/files/uploads/PNG/93b013a8-5801-4d8c-9ebe-7c3f2ee52ae5.png and /dev/null differ
+diff --git a/files/uploads/PNG/a529202e-0023-4fe3-a3e6-15b0b429b7b4.png b/files/uploads/PNG/a529202e-0023-4fe3-a3e6-15b0b429b7b4.png
+deleted file mode 100644
+index d6262cf..0000000
+Binary files a/files/uploads/PNG/a529202e-0023-4fe3-a3e6-15b0b429b7b4.png and /dev/null differ
+diff --git a/files/uploads/PNG/c0d7483f-b37f-40a6-a98d-b975ae64d08c.png b/files/uploads/PNG/c0d7483f-b37f-40a6-a98d-b975ae64d08c.png
+deleted file mode 100644
+index a6e4b13..0000000
+Binary files a/files/uploads/PNG/c0d7483f-b37f-40a6-a98d-b975ae64d08c.png and /dev/null differ
+diff --git a/files/uploads/PNG/d3682e52-9932-4093-a5fa-0be72668990c.png b/files/uploads/PNG/d3682e52-9932-4093-a5fa-0be72668990c.png
+deleted file mode 100644
+index a467f95..0000000
+Binary files a/files/uploads/PNG/d3682e52-9932-4093-a5fa-0be72668990c.png and /dev/null differ
+diff --git a/files/uploads/PNG/d3c03e01-aeff-4bb1-9c41-f59db483dbd5.png b/files/uploads/PNG/d3c03e01-aeff-4bb1-9c41-f59db483dbd5.png
+deleted file mode 100644
+index 67318df..0000000
+Binary files a/files/uploads/PNG/d3c03e01-aeff-4bb1-9c41-f59db483dbd5.png and /dev/null differ
+diff --git a/files/uploads/PNG/d5e6d889-de10-4bbb-984d-a42cb69f2ce3.png b/files/uploads/PNG/d5e6d889-de10-4bbb-984d-a42cb69f2ce3.png
+deleted file mode 100644
+index 1f06a81..0000000
+Binary files a/files/uploads/PNG/d5e6d889-de10-4bbb-984d-a42cb69f2ce3.png and /dev/null differ
+diff --git a/files/uploads/PNG/ea79db70-4557-43c6-9dbc-4edb0e6f77e5.png b/files/uploads/PNG/ea79db70-4557-43c6-9dbc-4edb0e6f77e5.png
+deleted file mode 100644
+index 8714bbf..0000000
+Binary files a/files/uploads/PNG/ea79db70-4557-43c6-9dbc-4edb0e6f77e5.png and /dev/null differ
+diff --git a/pom.xml b/pom.xml
+deleted file mode 100644
+index 4d15ed0..0000000
+--- a/pom.xml
++++ /dev/null
+@@ -1,75 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project xmlns="http://maven.apache.org/POM/4.0.0"
+-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+-    <modelVersion>4.0.0</modelVersion>
+-
+-    <groupId>com.shoopingapp.ecommerce.service</groupId>
+-    <artifactId>ProjectE-CommerceService</artifactId>
+-    <version>1.0-SNAPSHOT</version>
+-
+-    <properties>
+-        <maven.compiler.source>8</maven.compiler.source>
+-        <maven.compiler.target>8</maven.compiler.target>
+-
+-    </properties>
+-    <parent>
+-        <groupId>org.springframework.boot</groupId>
+-        <artifactId>spring-boot-starter-parent</artifactId>
+-        <version>2.2.6.RELEASE</version>
+-        <relativePath/>
+-    </parent>
+-
+-    <dependencies>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-web</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-websocket</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-data-jpa</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>mysql</groupId>
+-            <artifactId>mysql-connector-java</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>net.sf.jasperreports</groupId>
+-            <artifactId>jasperreports</artifactId>
+-            <version>6.18.1</version>
+-        </dependency>
+-        <dependency>
+-            <groupId>net.sf.jasperreports</groupId>
+-            <artifactId>jasperreports-fonts</artifactId>
+-            <version>6.18.1</version>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-test</artifactId>
+-            <scope>test</scope>
+-            <exclusions>
+-                <exclusion>
+-                    <groupId>org.junit.vintage</groupId>
+-                    <artifactId>org.junit.vintage-engine</artifactId>
+-                </exclusion>
+-            </exclusions>
+-        </dependency>
+-        <dependency>
+-            <groupId>joda-time</groupId>
+-            <artifactId>joda-time</artifactId>
+-            <version>2.10.10</version>
+-        </dependency>
+-    </dependencies>
+-    <build>
+-        <plugins>
+-            <plugin>
+-                <groupId>org.springframework.boot</groupId>
+-                <artifactId>spring-boot-maven-plugin</artifactId>
+-            </plugin>
+-        </plugins>
+-    </build>
+-</project>
+\ No newline at end of file
+diff --git a/src/main/java/com/shooping/ecommerce/service/App.java b/src/main/java/com/shooping/ecommerce/service/App.java
+deleted file mode 100644
+index 26d3c4a..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/App.java
++++ /dev/null
+@@ -1,14 +0,0 @@
+-package com.shooping.ecommerce.service;
+-
+-import com.shooping.ecommerce.service.config.FileStorageProperties;
+-import org.springframework.boot.SpringApplication;
+-import org.springframework.boot.autoconfigure.SpringBootApplication;
+-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+-
+-@SpringBootApplication
+-@EnableConfigurationProperties({FileStorageProperties.class})
+-public class App {
+-    public static void main (String[] args){
+-        SpringApplication.run(App.class, args);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/config/FileStorageProperties.java b/src/main/java/com/shooping/ecommerce/service/config/FileStorageProperties.java
+deleted file mode 100644
+index 9281190..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/config/FileStorageProperties.java
++++ /dev/null
+@@ -1,23 +0,0 @@
+-package com.shooping.ecommerce.service.config;
+-
+-import org.springframework.boot.context.properties.ConfigurationProperties;
+-
+-@ConfigurationProperties(prefix = "file")
+-public class FileStorageProperties {
+-    private String uploadDir;
+-
+-    public FileStorageProperties() {
+-    }
+-
+-    public FileStorageProperties(String uploadDir) {
+-        this.uploadDir = uploadDir;
+-    }
+-
+-    public String getUploadDir() {
+-        return uploadDir;
+-    }
+-
+-    public void setUploadDir(String uploadDir) {
+-        this.uploadDir = uploadDir;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/config/WebConfig.java b/src/main/java/com/shooping/ecommerce/service/config/WebConfig.java
+deleted file mode 100644
+index 3a9de48..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/config/WebConfig.java
++++ /dev/null
+@@ -1,17 +0,0 @@
+-package com.shooping.ecommerce.service.config;
+-
+-import org.springframework.context.annotation.Configuration;
+-import org.springframework.web.servlet.config.annotation.CorsRegistry;
+-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+-@Configuration
+-@EnableWebMvc
+-public class WebConfig implements WebMvcConfigurer {
+-    @Override
+-    public void addCorsMappings(CorsRegistry registry) {
+-        registry.addMapping("/**")
+-                .allowedOrigins("*")
+-                .allowedMethods("GET", "POST", "PUT", "DELETE", "HEAD")
+-                .allowCredentials(true);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/CategoriaController.java b/src/main/java/com/shooping/ecommerce/service/controller/CategoriaController.java
+deleted file mode 100644
+index ddce51d..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/CategoriaController.java
++++ /dev/null
+@@ -1,22 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.service.CategoriaService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.web.bind.annotation.GetMapping;
+-import org.springframework.web.bind.annotation.RequestMapping;
+-import org.springframework.web.bind.annotation.RestController;
+-
+-@RestController
+-@RequestMapping("api/categoria")
+-public class CategoriaController {
+-    private final CategoriaService service;
+-
+-    public CategoriaController(CategoriaService service) {
+-        this.service = service;
+-    }
+-
+-    @GetMapping
+-    public GenericResponse listarCategoriasActivas(){
+-        return this.service.listarCategoriasActivas();
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/ClienteController.java b/src/main/java/com/shooping/ecommerce/service/controller/ClienteController.java
+deleted file mode 100644
+index cdede81..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/ClienteController.java
++++ /dev/null
+@@ -1,29 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.entity.Cliente;
+-import com.shooping.ecommerce.service.service.ClienteService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.web.bind.annotation.*;
+-
+-import javax.validation.Valid;
+-
+-@RestController
+-@RequestMapping("api/cliente")
+-public class ClienteController {
+-    private final ClienteService service;
+-
+-    public ClienteController(ClienteService service) {
+-        this.service = service;
+-    }
+-
+-    @PostMapping
+-    public GenericResponse save(@Valid @RequestBody Cliente c){
+-        return this.service.save(c);
+-    }
+-
+-    @PutMapping("/{id}")
+-    public GenericResponse update(@PathVariable int id, @Valid @RequestBody Cliente c){
+-        c.setId(id);
+-        return this.service.save(c);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.java b/src/main/java/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.java
+deleted file mode 100644
+index fa1c639..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.java
++++ /dev/null
+@@ -1,48 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.entity.DocumentoAlmacenado;
+-import com.shooping.ecommerce.service.service.DocumentoAlmacenadoService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.core.io.Resource;
+-import org.springframework.http.ResponseEntity;
+-import org.springframework.web.bind.annotation.*;
+-
+-import javax.servlet.http.HttpServletRequest;
+-
+-@RestController
+-    @RequestMapping("api/documento-almacenado")
+-public class DocumentoAlmacenadoController {
+-    private DocumentoAlmacenadoService service;
+-
+-    public DocumentoAlmacenadoController(DocumentoAlmacenadoService service) {
+-        this.service = service;
+-    }
+-
+-    @GetMapping
+-    public GenericResponse list() {
+-        return service.list();
+-    }
+-
+-    @GetMapping("/{id}")
+-    public GenericResponse find(@PathVariable Long id) {
+-        return null;
+-    }
+-
+-    @GetMapping("/download/{fileName}")
+-    public ResponseEntity<Resource> download(@PathVariable String fileName, HttpServletRequest request) {
+-        return service.downloadByFileName(fileName, request);
+-    }
+-
+-    @PostMapping
+-    public GenericResponse save(@ModelAttribute DocumentoAlmacenado obj) {
+-        return service.save(obj);
+-    }
+-
+-    public GenericResponse update(Long aLong, DocumentoAlmacenado obj) {
+-        return null;
+-    }
+-    
+-    public GenericResponse delete(Long aLong) {
+-        return null;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/ItemController.java b/src/main/java/com/shooping/ecommerce/service/controller/ItemController.java
+deleted file mode 100644
+index 50cd352..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/ItemController.java
++++ /dev/null
+@@ -1,27 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.service.ItemService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.web.bind.annotation.GetMapping;
+-import org.springframework.web.bind.annotation.PathVariable;
+-import org.springframework.web.bind.annotation.RequestMapping;
+-import org.springframework.web.bind.annotation.RestController;
+-
+-@RestController
+-@RequestMapping("api/item")
+-public class ItemController {
+-    private final ItemService service;
+-
+-    public ItemController(ItemService service) {
+-        this.service = service;
+-    }
+-
+-    @GetMapping
+-    public GenericResponse listarItemsRecomendados(){
+-        return this.service.listarItemsRecomendados();
+-    }
+-    @GetMapping("/{idC}")
+-    public GenericResponse listarItemsPorCategoria(@PathVariable int idC){
+-        return this.service.listarItemsPorCategoria(idC);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/PedidoController.java b/src/main/java/com/shooping/ecommerce/service/controller/PedidoController.java
+deleted file mode 100644
+index e98b83a..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/PedidoController.java
++++ /dev/null
+@@ -1,41 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.entity.dto.GenerarPedidoDTO;
+-import com.shooping.ecommerce.service.entity.dto.PedidoConDetallesDTO;
+-import com.shooping.ecommerce.service.service.PedidoService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.core.io.Resource;
+-import org.springframework.http.ResponseEntity;
+-import org.springframework.web.bind.annotation.*;
+-
+-import java.util.List;
+-
+-@RestController
+-@RequestMapping("api/pedido")
+-public class PedidoController {
+-    private final PedidoService service;
+-
+-    public PedidoController(PedidoService service) {
+-        this.service = service;
+-    }
+-    //LISTAR PEDIDOS CON DETALLES
+-    @GetMapping("/misPedidos/{idCli}")
+-    public GenericResponse<List<PedidoConDetallesDTO>> devolverMisComprasConDetalle(@PathVariable int idCli){
+-        return this.service.devolverMisCompras(idCli);
+-    }
+-    //GUARDAR PEDIDO
+-    @PostMapping
+-    public GenericResponse guardarPedido(@RequestBody GenerarPedidoDTO dto){
+-        return this.service.guardarPedido(dto);
+-    }
+-    //ANULAR PEDIDO
+-    @DeleteMapping("/{id}")
+-    public GenericResponse anularPedido(@PathVariable int id){
+-        return this.service.anularPedido(id);
+-    }
+-    //EXPORTAR PDF DE ORDEN
+-    @GetMapping("exportInvoice")
+-    public ResponseEntity<Resource> exportInvoice(@RequestParam int idCli, @RequestParam int idOrden){
+-        return this.service.exportInvoice(idCli, idOrden);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/controller/UsuarioController.java b/src/main/java/com/shooping/ecommerce/service/controller/UsuarioController.java
+deleted file mode 100644
+index d225812..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/controller/UsuarioController.java
++++ /dev/null
+@@ -1,32 +0,0 @@
+-package com.shooping.ecommerce.service.controller;
+-
+-import com.shooping.ecommerce.service.entity.Usuario;
+-import com.shooping.ecommerce.service.service.UsuarioService;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import org.springframework.web.bind.annotation.*;
+-
+-import javax.servlet.http.HttpServletRequest;
+-
+-@RestController
+-@RequestMapping("api/usuario")
+-public class UsuarioController {
+-    private final UsuarioService service;
+-
+-    public UsuarioController(UsuarioService service) {
+-        this.service = service;
+-    }
+-    @PostMapping("/login")
+-    public GenericResponse<Usuario> login(HttpServletRequest request){
+-        String email = request.getParameter("email");
+-        String contrasenia = request.getParameter("pass");
+-        return this.service.login(email, contrasenia);
+-    }
+-    @PostMapping
+-    public GenericResponse save(@RequestBody Usuario u){
+-        return this.service.guardarUsuario(u);
+-    }
+-    @PutMapping("/{id}")
+-    public GenericResponse update(@PathVariable int id, @RequestBody Usuario u){
+-        return this.service.guardarUsuario(u);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/Categoria.java b/src/main/java/com/shooping/ecommerce/service/entity/Categoria.java
+deleted file mode 100644
+index 186e2b3..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/Categoria.java
++++ /dev/null
+@@ -1,48 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class Categoria {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column(length = 100)
+-    private String nombre;
+-    @Column
+-    private boolean vigencia;
+-    @OneToOne
+-    private DocumentoAlmacenado foto;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public String getNombre() {
+-        return nombre;
+-    }
+-
+-    public void setNombre(String nombre) {
+-        this.nombre = nombre;
+-    }
+-
+-    public boolean isVigencia() {
+-        return vigencia;
+-    }
+-
+-    public void setVigencia(boolean vigencia) {
+-        this.vigencia = vigencia;
+-    }
+-
+-    public DocumentoAlmacenado getFoto() {
+-        return foto;
+-    }
+-
+-    public void setFoto(DocumentoAlmacenado foto) {
+-        this.foto = foto;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/Cliente.java b/src/main/java/com/shooping/ecommerce/service/entity/Cliente.java
+deleted file mode 100644
+index 67de193..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/Cliente.java
++++ /dev/null
+@@ -1,133 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class Cliente {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column(length = 100)
+-    private String nombres;
+-    @Column(length = 100)
+-    private String apellidoPaterno;
+-    @Column(length = 100)
+-    private String apellidoMaterno;
+-    @Column(length = 20)
+-    private String tipoDoc;
+-    @Column(length = 11)
+-    private String numDoc;
+-    @Column(length = 500)
+-    private String direccionEnvio;
+-    @Column(length = 100)
+-    private String departamento;
+-    @Column(length = 100)
+-    private String ciudad;
+-    @Column(length = 100)
+-    private String distrito;
+-    @Column(length = 9)
+-    private String telefono;
+-    @OneToOne
+-    private DocumentoAlmacenado foto;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public String getNombres() {
+-        return nombres;
+-    }
+-
+-    public void setNombres(String nombres) {
+-        this.nombres = nombres;
+-    }
+-
+-    public String getTipoDoc() {
+-        return tipoDoc;
+-    }
+-
+-    public void setTipoDoc(String tipoDoc) {
+-        this.tipoDoc = tipoDoc;
+-    }
+-
+-    public String getNumDoc() {
+-        return numDoc;
+-    }
+-
+-    public void setNumDoc(String numDoc) {
+-        this.numDoc = numDoc;
+-    }
+-
+-    public String getDireccionEnvio() {
+-        return direccionEnvio;
+-    }
+-
+-    public void setDireccionEnvio(String direccionEnvio) {
+-        this.direccionEnvio = direccionEnvio;
+-    }
+-
+-    public String getDepartamento() {
+-        return departamento;
+-    }
+-
+-    public void setDepartamento(String departamento) {
+-        this.departamento = departamento;
+-    }
+-
+-    public String getCiudad() {
+-        return ciudad;
+-    }
+-
+-    public void setCiudad(String ciudad) {
+-        this.ciudad = ciudad;
+-    }
+-
+-    public String getDistrito() {
+-        return distrito;
+-    }
+-
+-    public void setDistrito(String distrito) {
+-        this.distrito = distrito;
+-    }
+-
+-    public DocumentoAlmacenado getFoto() {
+-        return foto;
+-    }
+-
+-    public void setFoto(DocumentoAlmacenado foto) {
+-        this.foto = foto;
+-    }
+-
+-    public String getApellidoPaterno() {
+-        return apellidoPaterno;
+-    }
+-
+-    public void setApellidoPaterno(String apellidoPaterno) {
+-        this.apellidoPaterno = apellidoPaterno;
+-    }
+-
+-    public String getApellidoMaterno() {
+-        return apellidoMaterno;
+-    }
+-
+-    public void setApellidoMaterno(String apellidoMaterno) {
+-        this.apellidoMaterno = apellidoMaterno;
+-    }
+-
+-    public String getTelefono() {
+-        return telefono;
+-    }
+-
+-    public void setTelefono(String telefono) {
+-        this.telefono = telefono;
+-    }
+-
+-    public String getNombreCompletoCiente(){
+-        return this.nombres != null && this.apellidoPaterno != null && this.apellidoMaterno != null ?
+-            this.nombres + " " + this.apellidoPaterno + " " + this.apellidoMaterno: "-----";
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/DetallePedido.java b/src/main/java/com/shooping/ecommerce/service/entity/DetallePedido.java
+deleted file mode 100644
+index 7c280a4..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/DetallePedido.java
++++ /dev/null
+@@ -1,67 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class DetallePedido {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column
+-    private int cantidad;
+-    @Column
+-    private Double precio;
+-    @ManyToOne
+-    private Item item;
+-    @ManyToOne
+-    private Pedido pedido;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public int getCantidad() {
+-        return cantidad;
+-    }
+-
+-    public void setCantidad(int cantidad) {
+-        this.cantidad = cantidad;
+-    }
+-
+-    public Double getPrecio() {
+-        return precio;
+-    }
+-
+-    public void setPrecio(Double precio) {
+-        this.precio = precio;
+-    }
+-
+-    public Item getItem() {
+-        return item;
+-    }
+-
+-    public void setItem(Item item) {
+-        this.item = item;
+-    }
+-
+-    public Pedido getPedido() {
+-        return pedido;
+-    }
+-
+-    public void setPedido(Pedido pedido) {
+-        this.pedido = pedido;
+-    }
+-
+-    public String getNombre(){
+-        return this.item != null ? this.item.getNombre() : "----";
+-    }
+-
+-    public Double getSubTotal(){
+-        return this.cantidad * this.precio;
+-    }
+-
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.java b/src/main/java/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.java
+deleted file mode 100644
+index b292a93..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.java
++++ /dev/null
+@@ -1,107 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import com.fasterxml.jackson.annotation.JsonProperty;
+-import org.springframework.web.multipart.MultipartFile;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class DocumentoAlmacenado {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private long id;
+-
+-    private String nombre;
+-
+-    private String fileName;
+-
+-    private String extension;
+-
+-    private String estado;
+-
+-    private boolean eliminado;
+-
+-    @Transient
+-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+-    private MultipartFile file;
+-
+-    @Transient
+-    private String urlFile;
+-
+-    public DocumentoAlmacenado() {
+-        id = 0;
+-        nombre = "";
+-        fileName = "";
+-        extension = "";
+-        estado = "A";
+-        eliminado = false;
+-    }
+-
+-    public long getId() {
+-        return id;
+-    }
+-
+-    public void setId(long id) {
+-        this.id = id;
+-    }
+-
+-    public String getNombre() {
+-        return nombre;
+-    }
+-
+-    public void setNombre(String nombre) {
+-        this.nombre = nombre;
+-    }
+-
+-    public String getFileName() {
+-        return fileName;
+-    }
+-
+-    public void setFileName(String fileName) {
+-        this.fileName = fileName;
+-    }
+-
+-    public String getExtension() {
+-        return extension;
+-    }
+-
+-    public void setExtension(String extension) {
+-        this.extension = extension;
+-    }
+-
+-    public String getEstado() {
+-        return estado;
+-    }
+-
+-    public void setEstado(String estado) {
+-        this.estado = estado;
+-    }
+-
+-    public boolean isEliminado() {
+-        return eliminado;
+-    }
+-
+-    public void setEliminado(boolean eliminado) {
+-        this.eliminado = eliminado;
+-    }
+-
+-    public MultipartFile getFile() {
+-        return file;
+-    }
+-
+-    public void setFile(MultipartFile file) {
+-        this.file = file;
+-    }
+-
+-    public String getUrlFile() {
+-        return urlFile;
+-    }
+-
+-    public void setUrlFile(String urlFile) {
+-        this.urlFile = urlFile;
+-    }
+-
+-    public String getCompleteFileName() {
+-        return fileName + extension;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/Item.java b/src/main/java/com/shooping/ecommerce/service/entity/Item.java
+deleted file mode 100644
+index 6d0c805..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/Item.java
++++ /dev/null
+@@ -1,100 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class Item {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column(length = 100)
+-    private String nombre;
+-    @OneToOne
+-    private DocumentoAlmacenado foto;
+-    @Column
+-    private Double precio;
+-    @Column
+-    private int stock;
+-    @Column(length = 500)
+-    private String descripcionItem;
+-    @OneToOne
+-    private Categoria categoria;
+-    @Column
+-    private boolean vigencia;
+-    @Column
+-    private boolean recomendado;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public String getNombre() {
+-        return nombre;
+-    }
+-
+-    public void setNombre(String nombre) {
+-        this.nombre = nombre;
+-    }
+-
+-    public DocumentoAlmacenado getFoto() {
+-        return foto;
+-    }
+-
+-    public void setFoto(DocumentoAlmacenado foto) {
+-        this.foto = foto;
+-    }
+-
+-    public Double getPrecio() {
+-        return precio;
+-    }
+-
+-    public void setPrecio(Double precio) {
+-        this.precio = precio;
+-    }
+-
+-    public int getStock() {
+-        return stock;
+-    }
+-
+-    public void setStock(int stock) {
+-        this.stock = stock;
+-    }
+-
+-    public String getDescripcionItem() {
+-        return descripcionItem;
+-    }
+-
+-    public void setDescripcionItem(String descripcionItem) {
+-        this.descripcionItem = descripcionItem;
+-    }
+-
+-    public Categoria getCategoria() {
+-        return categoria;
+-    }
+-
+-    public void setCategoria(Categoria categoria) {
+-        this.categoria = categoria;
+-    }
+-
+-    public boolean isVigencia() {
+-        return vigencia;
+-    }
+-
+-    public void setVigencia(boolean vigencia) {
+-        this.vigencia = vigencia;
+-    }
+-
+-    public boolean isRecomendado() {
+-        return recomendado;
+-    }
+-
+-    public void setRecomendado(boolean recomendado) {
+-        this.recomendado = recomendado;
+-    }
+-
+-
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/Pedido.java b/src/main/java/com/shooping/ecommerce/service/entity/Pedido.java
+deleted file mode 100644
+index 1ce3c66..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/Pedido.java
++++ /dev/null
+@@ -1,62 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import com.fasterxml.jackson.annotation.JsonFormat;
+-
+-import javax.persistence.*;
+-import java.util.Date;
+-
+-@Entity
+-public class Pedido {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column
+-    @JsonFormat(pattern = "dd-MM-yyyy", timezone = "America/Lima")
+-    private Date fechaCompra;
+-    @ManyToOne
+-    private Cliente cliente;
+-    @Column
+-    private Double monto;
+-    @Column
+-    private boolean anularPedido;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public Date getFechaCompra() {
+-        return fechaCompra;
+-    }
+-
+-    public void setFechaCompra(Date fechaCompra) {
+-        this.fechaCompra = fechaCompra;
+-    }
+-
+-    public Cliente getCliente() {
+-        return cliente;
+-    }
+-
+-    public void setCliente(Cliente cliente) {
+-        this.cliente = cliente;
+-    }
+-
+-    public Double getMonto() {
+-        return monto;
+-    }
+-
+-    public void setMonto(Double monto) {
+-        this.monto = monto;
+-    }
+-
+-    public boolean isAnularPedido() {
+-        return anularPedido;
+-    }
+-
+-    public void setAnularPedido(boolean anularPedido) {
+-        this.anularPedido = anularPedido;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/Usuario.java b/src/main/java/com/shooping/ecommerce/service/entity/Usuario.java
+deleted file mode 100644
+index 4f1b803..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/Usuario.java
++++ /dev/null
+@@ -1,58 +0,0 @@
+-package com.shooping.ecommerce.service.entity;
+-
+-import javax.persistence.*;
+-
+-@Entity
+-public class Usuario {
+-    @Id
+-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+-    private int id;
+-    @Column(length = 500)
+-    private String email;
+-    @Column(length = 20)
+-    private String clave;
+-    @Column
+-    private boolean vigencia;
+-    @OneToOne
+-    private Cliente cliente;
+-
+-    public int getId() {
+-        return id;
+-    }
+-
+-    public void setId(int id) {
+-        this.id = id;
+-    }
+-
+-    public String getEmail() {
+-        return email;
+-    }
+-
+-    public void setEmail(String email) {
+-        this.email = email;
+-    }
+-
+-    public String getClave() {
+-        return clave;
+-    }
+-
+-    public void setClave(String clave) {
+-        this.clave = clave;
+-    }
+-
+-    public boolean isVigencia() {
+-        return vigencia;
+-    }
+-
+-    public void setVigencia(boolean vigencia) {
+-        this.vigencia = vigencia;
+-    }
+-
+-    public Cliente getCliente() {
+-        return cliente;
+-    }
+-
+-    public void setCliente(Cliente cliente) {
+-        this.cliente = cliente;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.java b/src/main/java/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.java
+deleted file mode 100644
+index 06e59d8..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.java
++++ /dev/null
+@@ -1,40 +0,0 @@
+-package com.shooping.ecommerce.service.entity.dto;
+-
+-import com.shooping.ecommerce.service.entity.Cliente;
+-import com.shooping.ecommerce.service.entity.DetallePedido;
+-import com.shooping.ecommerce.service.entity.Pedido;
+-import com.fasterxml.jackson.annotation.JsonProperty;
+-
+-public class GenerarPedidoDTO {
+-    private Pedido pedido;
+-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+-    private Iterable<DetallePedido> detallePedidos;
+-    private Cliente cliente;
+-
+-    public GenerarPedidoDTO() {
+-    }
+-
+-    public Pedido getPedido() {
+-        return pedido;
+-    }
+-
+-    public void setPedido(Pedido pedido) {
+-        this.pedido = pedido;
+-    }
+-
+-    public Iterable<DetallePedido> getDetallePedidos() {
+-        return detallePedidos;
+-    }
+-
+-    public void setDetallePedidos(Iterable<DetallePedido> detallePedidos) {
+-        this.detallePedidos = detallePedidos;
+-    }
+-
+-    public Cliente getCliente() {
+-        return cliente;
+-    }
+-
+-    public void setCliente(Cliente cliente) {
+-        this.cliente = cliente;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.java b/src/main/java/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.java
+deleted file mode 100644
+index 69e0cc4..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.java
++++ /dev/null
+@@ -1,37 +0,0 @@
+-package com.shooping.ecommerce.service.entity.dto;
+-
+-import com.shooping.ecommerce.service.entity.DetallePedido;
+-import com.shooping.ecommerce.service.entity.Pedido;
+-
+-import java.util.ArrayList;
+-
+-public class PedidoConDetallesDTO {
+-    private Pedido pedido;
+-    private Iterable<DetallePedido> detallePedido;
+-
+-    public PedidoConDetallesDTO() {
+-        this.pedido = new Pedido();
+-        this.detallePedido = new ArrayList<>();
+-    }
+-
+-    public PedidoConDetallesDTO(Pedido pedido, Iterable<DetallePedido> detallePedido) {
+-        this.pedido = pedido;
+-        this.detallePedido = detallePedido;
+-    }
+-
+-    public Pedido getPedido() {
+-        return pedido;
+-    }
+-
+-    public void setPedido(Pedido pedido) {
+-        this.pedido = pedido;
+-    }
+-
+-    public Iterable<DetallePedido> getDetallePedido() {
+-        return detallePedido;
+-    }
+-
+-    public void setDetallePedido(Iterable<DetallePedido> detallePedido) {
+-        this.detallePedido = detallePedido;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/exception/FileStorageException.java b/src/main/java/com/shooping/ecommerce/service/exception/FileStorageException.java
+deleted file mode 100644
+index e0aa02e..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/exception/FileStorageException.java
++++ /dev/null
+@@ -1,11 +0,0 @@
+-package com.shooping.ecommerce.service.exception;
+-
+-public class FileStorageException extends RuntimeException {
+-    public FileStorageException(String message) {
+-        super(message);
+-    }
+-
+-    public FileStorageException(String message, Throwable cause) {
+-        super(message, cause);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/exception/GenericExceptionHandler.java b/src/main/java/com/shooping/ecommerce/service/exception/GenericExceptionHandler.java
+deleted file mode 100644
+index 043fc7f..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/exception/GenericExceptionHandler.java
++++ /dev/null
+@@ -1,13 +0,0 @@
+-package com.shooping.ecommerce.service.exception;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.web.bind.annotation.ExceptionHandler;
+-import org.springframework.web.bind.annotation.RestControllerAdvice;
+-
+-@RestControllerAdvice
+-public class GenericExceptionHandler {
+-    @ExceptionHandler(Exception.class)
+-    public GenericResponse genericException(Exception ex) {
+-        return new GenericResponse("exception", -1, Global.OPERACION_ERRONEA, ex.getMessage());
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/exception/MyFileNotFoundException.java b/src/main/java/com/shooping/ecommerce/service/exception/MyFileNotFoundException.java
+deleted file mode 100644
+index 1514754..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/exception/MyFileNotFoundException.java
++++ /dev/null
+@@ -1,11 +0,0 @@
+-package com.shooping.ecommerce.service.exception;
+-
+-public class MyFileNotFoundException extends RuntimeException {
+-    public MyFileNotFoundException(String message) {
+-        super(message);
+-    }
+-
+-    public MyFileNotFoundException(String message, Throwable cause) {
+-        super(message, cause);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.java b/src/main/java/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.java
+deleted file mode 100644
+index 45a8638..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.java
++++ /dev/null
+@@ -1,34 +0,0 @@
+-package com.shooping.ecommerce.service.exception;
+-
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.hibernate.JDBCException;
+-import org.springframework.core.Ordered;
+-import org.springframework.core.annotation.Order;
+-import org.springframework.web.bind.MethodArgumentNotValidException;
+-import org.springframework.web.bind.annotation.ExceptionHandler;
+-import org.springframework.web.bind.annotation.RestControllerAdvice;
+-
+-@RestControllerAdvice
+-@Order(Ordered.HIGHEST_PRECEDENCE)
+-public class SpecificExceptionHandler {
+-    @ExceptionHandler(JDBCException.class)
+-    public GenericResponse sqlException(JDBCException ex) {
+-        return new GenericResponse("sql-exception", -1, Global.OPERACION_ERRONEA, ex.getMessage());
+-    }
+-
+-    @ExceptionHandler(MethodArgumentNotValidException.class)
+-    public GenericResponse validException(MethodArgumentNotValidException ex) {
+-        return new GenericResponse("valid-exception", Global.RPTA_ERROR, Global.OPERACION_ERRONEA, ex.getMessage());
+-    }
+-
+-    @ExceptionHandler(FileStorageException.class)
+-    public GenericResponse fileStorageException(FileStorageException ex) {
+-        return new GenericResponse("file-storage-exception", Global.RPTA_ERROR, Global.OPERACION_ERRONEA, ex.getMessage());
+-    }
+-
+-    @ExceptionHandler(MyFileNotFoundException.class)
+-    public GenericResponse myFileNotFoundException(MyFileNotFoundException exception) {
+-        return new GenericResponse("my-file-not-found-exception", Global.RPTA_ERROR, Global.OPERACION_INCORRECTA, exception.getMessage());
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/CategoriaRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/CategoriaRepository.java
+deleted file mode 100644
+index 04bbf78..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/CategoriaRepository.java
++++ /dev/null
+@@ -1,10 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.Categoria;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-public interface CategoriaRepository extends CrudRepository<Categoria, Integer> {
+-    @Query("SELECT C FROM Categoria C WHERE C.vigencia IS 1")
+-    Iterable<Categoria> listarCategoriasActivas();
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/ClienteRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/ClienteRepository.java
+deleted file mode 100644
+index 741feb6..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/ClienteRepository.java
++++ /dev/null
+@@ -1,12 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.Cliente;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-public interface ClienteRepository extends CrudRepository<Cliente, Integer> {
+-    @Query(value = "(SELECT EXISTS(SELECT id FROM cliente WHERE num_doc=:dni))", nativeQuery = true)
+-    int existByDoc(String dni);
+-    @Query(value = "SELECT EXISTS(SELECT C.* FROM cliente C WHERE C.num_doc=:dni AND NOT (C.id=:id))", nativeQuery = true)
+-    int existByDocForUpdate(String dni, int id);
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/DetallePedidoRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/DetallePedidoRepository.java
+deleted file mode 100644
+index 848e97c..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/DetallePedidoRepository.java
++++ /dev/null
+@@ -1,15 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.DetallePedido;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-public interface DetallePedidoRepository extends CrudRepository<DetallePedido, Integer> {
+-    @Query("SELECT DP FROM DetallePedido DP WHERE DP.pedido.id=:idP")
+-    Iterable<DetallePedido> findByPedido(int idP);
+-    @Query(value = "SELECT SUM(dp.cantidad * dp.precio) AS \"Total\" FROM detalle_pedido dp JOIN pedido p\n"
+-        + "ON p.id = dp.pedido_id\n"
+-        + "WHERE p.cliente_id =:idCli", nativeQuery = true)
+-    Double totalByIdCustomer(int idCli);
+-
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.java
+deleted file mode 100644
+index 65fdd4f..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.java
++++ /dev/null
+@@ -1,15 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.DocumentoAlmacenado;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-import java.util.Optional;
+-
+-public interface DocumentoAlmacenadoRepository extends CrudRepository<DocumentoAlmacenado, Long> {
+-    @Query("SELECT da FROM DocumentoAlmacenado da WHERE da.estado = 'A' AND da.eliminado = false")
+-    Iterable<DocumentoAlmacenado> list();
+-
+-    @Query("SELECT da FROM DocumentoAlmacenado da WHERE da.fileName = :fileName AND da.estado = 'A' AND da.eliminado = false")
+-    Optional<DocumentoAlmacenado> findByFileName(String fileName);
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/ItemRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/ItemRepository.java
+deleted file mode 100644
+index b382ccc..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/ItemRepository.java
++++ /dev/null
+@@ -1,22 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.Item;
+-import org.springframework.data.jpa.repository.Modifying;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-public interface ItemRepository extends CrudRepository<Item, Integer> {
+-    @Query("SELECT P FROM Item P WHERE P.recomendado = 1")
+-    Iterable<Item> listarItemsRecomendados();
+-
+-    @Query("SELECT P FROM Item P WHERE P.categoria.id=:idC")
+-    Iterable<Item> listarItemsPorCategoria(int idC);
+-
+-    @Modifying
+-    @Query("UPDATE Item P SET P.stock=stock-:cant WHERE P.id=:id")
+-    void descontarStock(int cant, int id);
+-
+-    @Modifying
+-    @Query("UPDATE Item P SET P.stock=stock+:cant WHERE P.id=:id")
+-    void aumentarStock(int cant, int id);
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/PedidoRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/PedidoRepository.java
+deleted file mode 100644
+index 45b7cef..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/PedidoRepository.java
++++ /dev/null
+@@ -1,13 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.Pedido;
+-import java.util.Optional;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-public interface PedidoRepository extends CrudRepository<Pedido, Integer> {
+-    @Query("SELECT P FROM Pedido P WHERE P.cliente.id=:idCli")
+-    Iterable<Pedido> devolverMisCompras(int idCli);
+-    @Query("SELECT P FROM Pedido P WHERE P.id=:idOrden AND P.cliente.id=:idCli")
+-    Optional<Pedido> findByIdAndClienteId(int idCli, int idOrden);
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/repository/UsuarioRepository.java b/src/main/java/com/shooping/ecommerce/service/repository/UsuarioRepository.java
+deleted file mode 100644
+index 38ff8f6..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/repository/UsuarioRepository.java
++++ /dev/null
+@@ -1,12 +0,0 @@
+-package com.shooping.ecommerce.service.repository;
+-
+-import com.shooping.ecommerce.service.entity.Usuario;
+-import org.springframework.data.jpa.repository.Query;
+-import org.springframework.data.repository.CrudRepository;
+-
+-import java.util.Optional;
+-
+-public interface UsuarioRepository extends CrudRepository<Usuario, Integer> {
+-    @Query("SELECT U FROM Usuario U WHERE U.email=:correo AND U.clave=:password")
+-    Optional<Usuario> login(String correo, String password);
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/CategoriaService.java b/src/main/java/com/shooping/ecommerce/service/service/CategoriaService.java
+deleted file mode 100644
+index b091448..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/CategoriaService.java
++++ /dev/null
+@@ -1,21 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.repository.CategoriaRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.stereotype.Service;
+-
+-import javax.transaction.Transactional;
+-
+-@Service
+-@Transactional
+-public class CategoriaService {
+-    private final CategoriaRepository repository;
+-
+-    public CategoriaService(CategoriaRepository repository) {
+-        this.repository = repository;
+-    }
+-    public GenericResponse listarCategoriasActivas(){
+-        return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA, this.repository.listarCategoriasActivas());
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/ClienteService.java b/src/main/java/com/shooping/ecommerce/service/service/ClienteService.java
+deleted file mode 100644
+index 100cf0b..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/ClienteService.java
++++ /dev/null
+@@ -1,47 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.entity.Cliente;
+-import com.shooping.ecommerce.service.repository.ClienteRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.stereotype.Service;
+-
+-import javax.transaction.Transactional;
+-import java.util.Optional;
+-
+-@Service
+-@Transactional
+-public class ClienteService {
+-    private final ClienteRepository repository;
+-
+-    public ClienteService(ClienteRepository repository) {
+-        this.repository = repository;
+-    }
+-
+-    //Método para guardar y actualizar cliente
+-    public GenericResponse save(Cliente c){
+-        Optional<Cliente> opt = this.repository.findById(c.getId());
+-        int idf = opt.isPresent() ? opt.get().getId() : 0;
+-        if(idf == 0){
+-            if(repository.existByDoc(c.getNumDoc().trim()) == 1){
+-                return new GenericResponse(Global.TIPO_RESULT, Global.RPTA_WARNING, "Lo sentimos: " +
+-                        "Ya existe un cliente con ese mismo numero de documento, " +
+-                        "y si el problema persiste comuniquese con el soporte técnico", null);
+-            }else{
+-                //Guarda
+-                c.setId(idf);
+-                return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, "Cliente registrado correctamente", this.repository.save(c));
+-            }
+-        }else{
+-            //Actualizar Registro
+-            if(repository.existByDocForUpdate(c.getNumDoc().trim(), c.getId()) == 1){
+-                return new GenericResponse(Global.TIPO_RESULT, Global.RPTA_WARNING, "Error: Ya existe un cliente con esos mismos datos" +
+-                        "verifique e intente de nuevo", null);
+-            }else{
+-                //Actualiza
+-                c.setId(idf);
+-                return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, "Datos del cliente actualizado", this.repository.save(c));
+-            }
+-        }
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/DetallePedidoService.java b/src/main/java/com/shooping/ecommerce/service/service/DetallePedidoService.java
+deleted file mode 100644
+index 7a2ca85..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/DetallePedidoService.java
++++ /dev/null
+@@ -1,21 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.entity.DetallePedido;
+-import com.shooping.ecommerce.service.repository.DetallePedidoRepository;
+-import org.springframework.stereotype.Service;
+-
+-import javax.transaction.Transactional;
+-
+-@Service
+-@Transactional
+-public class DetallePedidoService {
+-    private final DetallePedidoRepository repository;
+-
+-    public DetallePedidoService(DetallePedidoRepository repository) {
+-        this.repository = repository;
+-    }
+-    //Método para guardar detalles del pedido
+-    public void guardarDetalles(Iterable<DetallePedido> detalle){
+-        this.repository.saveAll(detalle);
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.java b/src/main/java/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.java
+deleted file mode 100644
+index 7a1ff51..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.java
++++ /dev/null
+@@ -1,85 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.entity.DocumentoAlmacenado;
+-import com.shooping.ecommerce.service.repository.DocumentoAlmacenadoRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.core.io.Resource;
+-import org.springframework.http.HttpHeaders;
+-import org.springframework.http.MediaType;
+-import org.springframework.http.ResponseEntity;
+-import org.springframework.stereotype.Service;
+-import org.springframework.transaction.annotation.Transactional;
+-
+-import javax.servlet.http.HttpServletRequest;
+-import java.io.IOException;
+-import java.util.HashMap;
+-
+-
+-@Service
+-@Transactional
+-public class DocumentoAlmacenadoService {
+-    private DocumentoAlmacenadoRepository repo;
+-    private FileStorageService storageService;
+-
+-    public DocumentoAlmacenadoService(DocumentoAlmacenadoRepository repo, FileStorageService storageService) {
+-        this.repo = repo;
+-        this.storageService = storageService;
+-    }
+-
+-    public GenericResponse<Iterable<DocumentoAlmacenado>> list() {
+-        return new GenericResponse<Iterable<DocumentoAlmacenado>>(Global.TIPO_RESULT, Global.RPTA_OK, Global.OPERACION_CORRECTA, repo.list());
+-    }
+-
+-
+-    public GenericResponse find(Long aLong) { return null; }
+-
+-
+-    public GenericResponse save(DocumentoAlmacenado obj) {
+-        String fileName = (repo.findById(obj.getId())).orElse(new DocumentoAlmacenado()).getFileName();
+-
+-        String originalFilename = obj.getFile().getOriginalFilename();
+-        String extension = originalFilename.substring(originalFilename.lastIndexOf("."));
+-
+-        fileName = storageService.storeFile(obj.getFile(), fileName);
+-
+-        obj.setFileName(fileName);
+-        obj.setExtension(extension);
+-
+-        return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA,repo.save(obj));
+-    }
+-
+-    public ResponseEntity<Resource> download(String completefileName, HttpServletRequest request) {
+-        Resource resource = storageService.loadResource(completefileName);
+-        String contentType = null;
+-
+-        try {
+-            contentType = request.getServletContext().getMimeType(resource.getFile().getAbsolutePath());
+-        } catch (IOException e) {
+-            e.printStackTrace();
+-        }
+-
+-        if (contentType == null) {
+-            contentType = "application/octet-stream";
+-        }
+-
+-        return ResponseEntity.ok()
+-                .contentType(MediaType.parseMediaType(contentType))
+-                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + resource.getFilename() + "\"")
+-                .body(resource);
+-    }
+-
+-    public ResponseEntity<Resource> downloadByFileName(String fileName, HttpServletRequest request) {
+-        DocumentoAlmacenado doc = repo.findByFileName(fileName).orElse(new DocumentoAlmacenado());
+-        return download(doc.getCompleteFileName(), request);
+-    }
+-
+-
+-    public GenericResponse delete(Long aLong) {
+-        return null;
+-    }
+-
+-    public HashMap<String, Object> validate(DocumentoAlmacenado obj) {
+-        return null;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/FileStorageService.java b/src/main/java/com/shooping/ecommerce/service/service/FileStorageService.java
+deleted file mode 100644
+index 73fd475..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/FileStorageService.java
++++ /dev/null
+@@ -1,93 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.config.FileStorageProperties;
+-import com.shooping.ecommerce.service.exception.FileStorageException;
+-import com.shooping.ecommerce.service.exception.MyFileNotFoundException;
+-import org.springframework.core.io.Resource;
+-import org.springframework.core.io.UrlResource;
+-import org.springframework.stereotype.Service;
+-import org.springframework.util.StringUtils;
+-import org.springframework.web.multipart.MultipartFile;
+-
+-import java.io.IOException;
+-import java.net.MalformedURLException;
+-import java.nio.file.Files;
+-import java.nio.file.Path;
+-import java.nio.file.Paths;
+-import java.nio.file.StandardCopyOption;
+-import java.util.UUID;
+-
+-@Service
+-public class FileStorageService {
+-    private FileStorageProperties fileStorageProperties;
+-
+-    public FileStorageService(FileStorageProperties fileStorageProperties) {
+-        this.fileStorageProperties = fileStorageProperties;
+-    }
+-
+-    public String storeFile(MultipartFile file, String fileName) {
+-        String originalName = StringUtils.cleanPath(file.getOriginalFilename());
+-        String extension = originalName.substring(originalName.lastIndexOf("."));
+-
+-        if (fileName.equals("")) {
+-            fileName = UUID.randomUUID().toString();
+-        }
+-
+-        Path fileStorageLocation = getFileStorageLocation(getFolderName(originalName));
+-        Path targetLocation = fileStorageLocation.resolve(fileName + extension);
+-        try {
+-            Files.copy(file.getInputStream(), targetLocation, StandardCopyOption.REPLACE_EXISTING);
+-            return fileName;
+-
+-        } catch (IOException e) {
+-            throw new FileStorageException("No se pudo almacenar el archivo", e);
+-        }
+-    }
+-
+-    private String getFolderName(String completeFileName) {
+-        String extension = completeFileName.substring(completeFileName.lastIndexOf("."));
+-        return extension.replace(".", "").toUpperCase();
+-    }
+-
+-    private Path getFileStorageLocation(String folderName) {
+-        Path fileStorageLocation = Paths.get(fileStorageProperties.getUploadDir() + "/" + folderName).toAbsolutePath().normalize();
+-        try {
+-            Files.createDirectories(fileStorageLocation);
+-            return fileStorageLocation;
+-        } catch (IOException e) {
+-            throw new FileStorageException("No se pudo crear el directorio", e);
+-        }
+-    }
+-
+-    public Resource loadResource(String completeFileName) {
+-        Path fileStorageLocation = getFileStorageLocation(getFolderName(completeFileName));
+-        Path path = fileStorageLocation.resolve(completeFileName).normalize();
+-        try {
+-            Resource resource = new UrlResource(path.toUri());
+-            if (resource.exists()) {
+-                return resource;
+-            } else {
+-                throw new MyFileNotFoundException("Archivo no encontrado: " + completeFileName);
+-            }
+-
+-        } catch (MalformedURLException e) {
+-            throw new MyFileNotFoundException("Ha ocurrido un error al intentar acceder al archivo: " + completeFileName, e);
+-        }
+-    }
+-}
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/ItemService.java b/src/main/java/com/shooping/ecommerce/service/service/ItemService.java
+deleted file mode 100644
+index 9c03087..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/ItemService.java
++++ /dev/null
+@@ -1,24 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.repository.ItemRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.stereotype.Service;
+-
+-import javax.transaction.Transactional;
+-
+-@Service
+-@Transactional
+-public class ItemService {
+-    private final ItemRepository repository;
+-
+-    public ItemService(ItemRepository repository) {
+-        this.repository = repository;
+-    }
+-    public GenericResponse listarItemsRecomendados(){
+-        return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA, this.repository.listarItemsRecomendados());
+-    }
+-    public GenericResponse listarItemsPorCategoria(int idC){
+-        return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA, this.repository.listarItemsPorCategoria(idC));
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/PedidoService.java b/src/main/java/com/shooping/ecommerce/service/service/PedidoService.java
+deleted file mode 100644
+index 2ffaae5..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/PedidoService.java
++++ /dev/null
+@@ -1,149 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.entity.DetallePedido;
+-import com.shooping.ecommerce.service.entity.Pedido;
+-import com.shooping.ecommerce.service.entity.dto.GenerarPedidoDTO;
+-import com.shooping.ecommerce.service.entity.dto.PedidoConDetallesDTO;
+-import com.shooping.ecommerce.service.repository.DetallePedidoRepository;
+-import com.shooping.ecommerce.service.repository.PedidoRepository;
+-import com.shooping.ecommerce.service.repository.ItemRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import java.io.File;
+-import java.io.FileInputStream;
+-import java.text.SimpleDateFormat;
+-import java.util.Collection;
+-import java.util.HashMap;
+-import java.util.Optional;
+-import javax.validation.constraints.NotNull;
+-
+-import com.shooping.ecommerce.service.utlis.Global;
+-import net.sf.jasperreports.engine.JREmptyDataSource;
+-import net.sf.jasperreports.engine.JasperExportManager;
+-import net.sf.jasperreports.engine.JasperFillManager;
+-import net.sf.jasperreports.engine.JasperPrint;
+-import net.sf.jasperreports.engine.JasperReport;
+-import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
+-import net.sf.jasperreports.engine.util.JRLoader;
+-import org.springframework.core.io.ByteArrayResource;
+-import org.springframework.core.io.Resource;
+-import org.springframework.http.ContentDisposition;
+-import org.springframework.http.HttpHeaders;
+-import org.springframework.http.MediaType;
+-import org.springframework.http.ResponseEntity;
+-import org.springframework.stereotype.Service;
+-import javax.transaction.Transactional;
+-import java.util.ArrayList;
+-import java.util.Date;
+-import java.util.List;
+-import org.springframework.util.ResourceUtils;
+-
+-@Service
+-@Transactional
+-public class PedidoService {
+-
+-  private final PedidoRepository repository;
+-
+-  private final DetallePedidoRepository detallePedidoRepository;
+-
+-  private final DetallePedidoService dpService;
+-
+-  private final ItemRepository pRepository;
+-
+-  public PedidoService(PedidoRepository repository, DetallePedidoRepository detallePedidoRepository, DetallePedidoService dpService,
+-      ItemRepository pRepository) {
+-    this.repository = repository;
+-    this.detallePedidoRepository = detallePedidoRepository;
+-    this.dpService = dpService;
+-    this.pRepository = pRepository;
+-  }
+-
+-  //Método para devolver los pedidos con su respectivo detalle
+-  public GenericResponse<List<PedidoConDetallesDTO>> devolverMisCompras(int idCli) {
+-    final List<PedidoConDetallesDTO> dtos = new ArrayList<>();
+-    final Iterable<Pedido> pedidos = repository.devolverMisCompras(idCli);
+-    pedidos.forEach(p -> {
+-      dtos.add(new PedidoConDetallesDTO(p, detallePedidoRepository.findByPedido(p.getId())));
+-    });
+-    return new GenericResponse(Global.OPERACION_CORRECTA, Global.RPTA_OK, "Petición Encontrada", dtos);
+-  }
+-
+-  //Método para guardar el pedido
+-  public GenericResponse guardarPedido(GenerarPedidoDTO dto) {
+-    Date date = new Date();
+-    dto.getPedido().setFechaCompra(new java.sql.Date(date.getTime()));
+-    dto.getPedido().setAnularPedido(false);
+-    dto.getPedido().setMonto(dto.getPedido().getMonto());
+-    dto.getPedido().setCliente(dto.getCliente());
+-    this.repository.save(dto.getPedido());
+-    for (DetallePedido dp : dto.getDetallePedidos()) {
+-      dp.setPedido(dto.getPedido());
+-      this.pRepository.descontarStock(dp.getCantidad(), dp.getItem().getId());
+-    }
+-    //Llamamos al DetallePedidoService
+-    this.dpService.guardarDetalles(dto.getDetallePedidos());
+-    return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA, dto);
+-
+-  }
+-
+-  //Método para anular el pedido
+-  public GenericResponse anularPedido(int id) {
+-    Pedido p = this.repository.findById(id).orElse(new Pedido());
+-    if (p.getId() != 0) {
+-      p.setAnularPedido(true);
+-      this.restablecerStock(id);
+-      this.repository.save(p);
+-      return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_CORRECTA, p);
+-    } else {
+-      return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, Global.OPERACION_ERRONEA, "El pedido que desea anular no es válido");
+-    }
+-  }
+-
+-  private void restablecerStock(final int pedidoId) {
+-    Iterable<DetallePedido> detalles = this.detallePedidoRepository.findByPedido(pedidoId);
+-    for (DetallePedido dp : detalles) {
+-      pRepository.aumentarStock(dp.getCantidad(), dp.getItem().getId());
+-    }
+-  }
+-
+-  @NotNull
+-  public ResponseEntity<Resource> exportInvoice(int idCli, int idOrden) {
+-    Optional<Pedido> optPedido = this.repository.findByIdAndClienteId(idCli, idOrden);
+-    Double rpta = this.detallePedidoRepository.totalByIdCustomer(idCli);
+-    if (optPedido.isPresent()) {
+-      try {
+-        final Pedido pedido = optPedido.get();
+-        final File file = ResourceUtils.getFile("classpath:exportInvoice.jasper");
+-        final File imgLogo = ResourceUtils.getFile("classpath:images/logoCevicheria.png");
+-        final JasperReport report = (JasperReport) JRLoader.loadObject(file);
+-
+-        final HashMap<String, Object> parameters = new HashMap<>();
+-        parameters.put("nombreCliente", pedido.getCliente().getNombreCompletoCiente());
+-        parameters.put("imgLogo", new FileInputStream(imgLogo));
+-        parameters.put("total", rpta);
+-        parameters.put("dsInvoice", new JRBeanCollectionDataSource((Collection<?>) this.detallePedidoRepository.findByPedido(idOrden)));
+-
+-        JasperPrint jasperPrint = JasperFillManager.fillReport(report, parameters, new JREmptyDataSource());
+-        byte[] reporte = JasperExportManager.exportReportToPdf(jasperPrint);
+-        String sdf = (new SimpleDateFormat("dd/MM/yyyy")).format(new Date());
+-        StringBuilder stringBuilder = new StringBuilder().append("InvoicePDF:");
+-        ContentDisposition contentDisposition = ContentDisposition.builder("attachment")
+-            .filename(stringBuilder.append(pedido.getId())
+-                .append("generateDate:")
+-                .append(sdf)
+-                .append(".pdf")
+-                .toString())
+-            .build();
+-        HttpHeaders headers = new HttpHeaders();
+-        headers.setContentDisposition(contentDisposition);
+-        return ResponseEntity.ok().contentLength((long) reporte.length)
+-            .contentType(MediaType.APPLICATION_PDF)
+-            .headers(headers).body(new ByteArrayResource(reporte));
+-      } catch (Exception e) {
+-        e.printStackTrace();
+-      }
+-    } else {
+-      return ResponseEntity.noContent().build(); //No se encontro el reporte
+-    }
+-    return null;
+-  }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/service/UsuarioService.java b/src/main/java/com/shooping/ecommerce/service/service/UsuarioService.java
+deleted file mode 100644
+index 62b202e..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/service/UsuarioService.java
++++ /dev/null
+@@ -1,39 +0,0 @@
+-package com.shooping.ecommerce.service.service;
+-
+-import com.shooping.ecommerce.service.entity.Usuario;
+-import com.shooping.ecommerce.service.repository.UsuarioRepository;
+-import com.shooping.ecommerce.service.utlis.GenericResponse;
+-import com.shooping.ecommerce.service.utlis.Global;
+-import org.springframework.stereotype.Service;
+-
+-import javax.transaction.Transactional;
+-import java.util.Optional;
+-
+-@Service
+-@Transactional
+-public class UsuarioService {
+-    private final UsuarioRepository repository;
+-
+-    public UsuarioService(UsuarioRepository repository) {
+-        this.repository = repository;
+-    }
+-    //Método para iniciar sesión
+-    public GenericResponse<Usuario> login(String email, String pass){
+-        Optional<Usuario> optU = this.repository.login(email, pass);
+-        if(optU.isPresent()){
+-            return new GenericResponse<Usuario>(Global.TIPO_AUTH, Global.RPTA_OK, "Credenciales correctas", optU.get());
+-        }else{
+-            return new GenericResponse<Usuario>(Global.TIPO_AUTH, Global.RPTA_WARNING, "Lo sentimos, ese usuario no existe", new Usuario());
+-        }
+-    }
+-    //Método para guardar credenciales del usuario
+-    public GenericResponse guardarUsuario(Usuario u){
+-        Optional<Usuario> optU = this.repository.findById(u.getId());
+-        int idf = optU.isPresent() ? optU.get().getId() : 0;
+-        if(idf == 0){
+-            return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, "Usuario Registrado Correctamente", this.repository.save(u));
+-        }else{
+-            return new GenericResponse(Global.TIPO_DATA, Global.RPTA_OK, "Datos del usuario actualizados", this.repository.save(u));
+-        }
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/utlis/GenericResponse.java b/src/main/java/com/shooping/ecommerce/service/utlis/GenericResponse.java
+deleted file mode 100644
+index 3fd231e..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/utlis/GenericResponse.java
++++ /dev/null
+@@ -1,60 +0,0 @@
+-package com.shooping.ecommerce.service.utlis;
+-
+-public class GenericResponse<T> {
+-    private String type;
+-    private int rpta;
+-    private String message;
+-    private T body;
+-    public GenericResponse() {
+-        type = "";
+-        rpta = 0;
+-        message = "";
+-        body = null;
+-    }
+-
+-    public GenericResponse(String bodyType, Object body) {
+-        type = "";
+-        rpta = 0;
+-        message = "";
+-        this.body = null;
+-    }
+-
+-    public GenericResponse(String type, int rpta, String message, T body) {
+-        this.type = type;
+-        this.rpta = rpta;
+-        this.message = message;
+-        this.body = body;
+-    }
+-
+-    public String getType() {
+-        return type;
+-    }
+-
+-    public void setType(String type) {
+-        this.type = type;
+-    }
+-
+-    public int getRpta() {
+-        return rpta;
+-    }
+-
+-    public void setRpta(int rpta) {
+-        this.rpta = rpta;
+-    }
+-
+-    public String getMessage() {
+-        return message;
+-    }
+-
+-    public void setMessage(String message) {
+-        this.message = message;
+-    }
+-
+-    public T getBody() {
+-        return body;
+-    }
+-
+-    public void setBody(T body) {
+-        this.body = body;
+-    }
+-}
+diff --git a/src/main/java/com/shooping/ecommerce/service/utlis/Global.java b/src/main/java/com/shooping/ecommerce/service/utlis/Global.java
+deleted file mode 100644
+index 62b45fe..0000000
+--- a/src/main/java/com/shooping/ecommerce/service/utlis/Global.java
++++ /dev/null
+@@ -1,19 +0,0 @@
+-package com.shooping.ecommerce.service.utlis;
+-
+-public class Global {
+-    public enum Estado {
+-        A,
+-        I
+-    }
+-
+-    public static final String TIPO_RESULT = "result";
+-    public static final String TIPO_DATA = "data";
+-    public static final String TIPO_AUTH = "auth";
+-    public static final int RPTA_OK = 1;
+-    public static final int RPTA_WARNING = 0;
+-    public static final int RPTA_ERROR = -1;
+-    public static final String OPERACION_CORRECTA = "Operación finalizada correctamente";
+-    public static final String OPERACION_INCORRECTA = "No se ha podido culminar la operación";
+-    public static final String OPERACION_ERRONEA = "Ha ocurrido un error al realizar la operación";
+-    public static final String AUTH_SECRET = "serviciosweb2";
+-}
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+deleted file mode 100644
+index fe08c63..0000000
+--- a/src/main/resources/application.properties
++++ /dev/null
+@@ -1,24 +0,0 @@
+-#PUERTO
+-spring.application.name=heroku_36640c5f328faa8
+-server.port=9090
+-
+-#DATASOURCE
+-spring.datasource.url=jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_36640c5f328faa8?user=b3be202ef7731b&password=43a890c8
+-spring.datasource.username=b3be202ef7731b
+-spring.datasource.password=43a890c8
+-spring.datasource.driver.class=com.mysql.jdbc.Driver
+-
+-#JPA
+-spring.jpa.show-sql=true
+-spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
+-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+-
+-#ARCHIVOS
+-spring.servlet.multipart.enabled=true
+-spring.servlet.multipart.file-size-threshold=2KB
+-spring.servlet.multipart.max-file-size=200MB
+-spring.servlet.multipart.max-request-size=200MB
+-file.upload-dir=files/uploads
+-
+-mysql://b3be202ef7731b:43a890c8@us-cdbr-east-06.cleardb.net/heroku_36640c5f328faa8?reconnect=true
+\ No newline at end of file
+diff --git a/src/main/resources/templates/index.html b/src/main/resources/templates/index.html
+deleted file mode 100644
+index 566549b..0000000
+--- a/src/main/resources/templates/index.html
++++ /dev/null
+@@ -1,10 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-</head>
+-<body>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/target/classes/application.properties b/target/classes/application.properties
+deleted file mode 100644
+index fe08c63..0000000
+--- a/target/classes/application.properties
++++ /dev/null
+@@ -1,24 +0,0 @@
+-#PUERTO
+-spring.application.name=heroku_36640c5f328faa8
+-server.port=9090
+-
+-#DATASOURCE
+-spring.datasource.url=jdbc:mysql://us-cdbr-east-06.cleardb.net:3306/heroku_36640c5f328faa8?user=b3be202ef7731b&password=43a890c8
+-spring.datasource.username=b3be202ef7731b
+-spring.datasource.password=43a890c8
+-spring.datasource.driver.class=com.mysql.jdbc.Driver
+-
+-#JPA
+-spring.jpa.show-sql=true
+-spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
+-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+-
+-#ARCHIVOS
+-spring.servlet.multipart.enabled=true
+-spring.servlet.multipart.file-size-threshold=2KB
+-spring.servlet.multipart.max-file-size=200MB
+-spring.servlet.multipart.max-request-size=200MB
+-file.upload-dir=files/uploads
+-
+-mysql://b3be202ef7731b:43a890c8@us-cdbr-east-06.cleardb.net/heroku_36640c5f328faa8?reconnect=true
+\ No newline at end of file
+diff --git a/target/classes/com/shooping/ecommerce/service/App.class b/target/classes/com/shooping/ecommerce/service/App.class
+deleted file mode 100644
+index d0d5531..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/App.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/config/FileStorageProperties.class b/target/classes/com/shooping/ecommerce/service/config/FileStorageProperties.class
+deleted file mode 100644
+index a524c80..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/config/FileStorageProperties.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/config/WebConfig.class b/target/classes/com/shooping/ecommerce/service/config/WebConfig.class
+deleted file mode 100644
+index 07d0eca..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/config/WebConfig.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/CategoriaController.class b/target/classes/com/shooping/ecommerce/service/controller/CategoriaController.class
+deleted file mode 100644
+index 954e308..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/CategoriaController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/ClienteController.class b/target/classes/com/shooping/ecommerce/service/controller/ClienteController.class
+deleted file mode 100644
+index 9e6e6a1..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/ClienteController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.class b/target/classes/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.class
+deleted file mode 100644
+index 5c1dd24..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/DocumentoAlmacenadoController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/ItemController.class b/target/classes/com/shooping/ecommerce/service/controller/ItemController.class
+deleted file mode 100644
+index f351d9c..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/ItemController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/PedidoController.class b/target/classes/com/shooping/ecommerce/service/controller/PedidoController.class
+deleted file mode 100644
+index ea9aca5..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/PedidoController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/controller/UsuarioController.class b/target/classes/com/shooping/ecommerce/service/controller/UsuarioController.class
+deleted file mode 100644
+index 9600a7f..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/controller/UsuarioController.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/Categoria.class b/target/classes/com/shooping/ecommerce/service/entity/Categoria.class
+deleted file mode 100644
+index 705a50e..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/Categoria.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/Cliente.class b/target/classes/com/shooping/ecommerce/service/entity/Cliente.class
+deleted file mode 100644
+index aa558b7..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/Cliente.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/DetallePedido.class b/target/classes/com/shooping/ecommerce/service/entity/DetallePedido.class
+deleted file mode 100644
+index cbf57b3..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/DetallePedido.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.class b/target/classes/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.class
+deleted file mode 100644
+index e559ca2..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/DocumentoAlmacenado.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/Item.class b/target/classes/com/shooping/ecommerce/service/entity/Item.class
+deleted file mode 100644
+index fb410fc..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/Item.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/Pedido.class b/target/classes/com/shooping/ecommerce/service/entity/Pedido.class
+deleted file mode 100644
+index 58acb4e..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/Pedido.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/Usuario.class b/target/classes/com/shooping/ecommerce/service/entity/Usuario.class
+deleted file mode 100644
+index ab775db..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/Usuario.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.class b/target/classes/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.class
+deleted file mode 100644
+index bd8b921..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/dto/GenerarPedidoDTO.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.class b/target/classes/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.class
+deleted file mode 100644
+index dfbf694..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/entity/dto/PedidoConDetallesDTO.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/exception/FileStorageException.class b/target/classes/com/shooping/ecommerce/service/exception/FileStorageException.class
+deleted file mode 100644
+index dcf776d..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/exception/FileStorageException.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/exception/GenericExceptionHandler.class b/target/classes/com/shooping/ecommerce/service/exception/GenericExceptionHandler.class
+deleted file mode 100644
+index 007d2af..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/exception/GenericExceptionHandler.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/exception/MyFileNotFoundException.class b/target/classes/com/shooping/ecommerce/service/exception/MyFileNotFoundException.class
+deleted file mode 100644
+index 12e85c3..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/exception/MyFileNotFoundException.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.class b/target/classes/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.class
+deleted file mode 100644
+index ed60b95..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/exception/SpecificExceptionHandler.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/CategoriaRepository.class b/target/classes/com/shooping/ecommerce/service/repository/CategoriaRepository.class
+deleted file mode 100644
+index 7dc218c..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/CategoriaRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/ClienteRepository.class b/target/classes/com/shooping/ecommerce/service/repository/ClienteRepository.class
+deleted file mode 100644
+index 16820b4..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/ClienteRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/DetallePedidoRepository.class b/target/classes/com/shooping/ecommerce/service/repository/DetallePedidoRepository.class
+deleted file mode 100644
+index 24bc1ee..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/DetallePedidoRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.class b/target/classes/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.class
+deleted file mode 100644
+index 292469e..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/DocumentoAlmacenadoRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/ItemRepository.class b/target/classes/com/shooping/ecommerce/service/repository/ItemRepository.class
+deleted file mode 100644
+index 4a9cd06..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/ItemRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/PedidoRepository.class b/target/classes/com/shooping/ecommerce/service/repository/PedidoRepository.class
+deleted file mode 100644
+index f7811cd..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/PedidoRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/repository/UsuarioRepository.class b/target/classes/com/shooping/ecommerce/service/repository/UsuarioRepository.class
+deleted file mode 100644
+index d64b8ce..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/repository/UsuarioRepository.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/CategoriaService.class b/target/classes/com/shooping/ecommerce/service/service/CategoriaService.class
+deleted file mode 100644
+index f77d505..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/CategoriaService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/ClienteService.class b/target/classes/com/shooping/ecommerce/service/service/ClienteService.class
+deleted file mode 100644
+index ffac8c5..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/ClienteService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/DetallePedidoService.class b/target/classes/com/shooping/ecommerce/service/service/DetallePedidoService.class
+deleted file mode 100644
+index 09c30da..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/DetallePedidoService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.class b/target/classes/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.class
+deleted file mode 100644
+index cd29676..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/DocumentoAlmacenadoService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/FileStorageService.class b/target/classes/com/shooping/ecommerce/service/service/FileStorageService.class
+deleted file mode 100644
+index a9dddb9..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/FileStorageService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/ItemService.class b/target/classes/com/shooping/ecommerce/service/service/ItemService.class
+deleted file mode 100644
+index bb2dc28..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/ItemService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/PedidoService.class b/target/classes/com/shooping/ecommerce/service/service/PedidoService.class
+deleted file mode 100644
+index 29e1fd2..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/PedidoService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/service/UsuarioService.class b/target/classes/com/shooping/ecommerce/service/service/UsuarioService.class
+deleted file mode 100644
+index eb13de4..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/service/UsuarioService.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/utlis/GenericResponse.class b/target/classes/com/shooping/ecommerce/service/utlis/GenericResponse.class
+deleted file mode 100644
+index 81ce642..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/utlis/GenericResponse.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/utlis/Global$Estado.class b/target/classes/com/shooping/ecommerce/service/utlis/Global$Estado.class
+deleted file mode 100644
+index cd14c7d..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/utlis/Global$Estado.class and /dev/null differ
+diff --git a/target/classes/com/shooping/ecommerce/service/utlis/Global.class b/target/classes/com/shooping/ecommerce/service/utlis/Global.class
+deleted file mode 100644
+index 43032b7..0000000
+Binary files a/target/classes/com/shooping/ecommerce/service/utlis/Global.class and /dev/null differ
+diff --git a/target/classes/templates/index.html b/target/classes/templates/index.html
+deleted file mode 100644
+index 566549b..0000000
+--- a/target/classes/templates/index.html
++++ /dev/null
+@@ -1,10 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-</head>
+-<body>
+-
+-</body>
+-</html>
+\ No newline at end of file
+diff --git a/target/maven-archiver/pom.properties b/target/maven-archiver/pom.properties
+deleted file mode 100644
+index 29e40b0..0000000
+--- a/target/maven-archiver/pom.properties
++++ /dev/null
+@@ -1,3 +0,0 @@
+-groupId=com.shoopingapp.ecommerce.service
+-artifactId=ProjectE-CommerceService
+-version=1.0-SNAPSHOT
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+deleted file mode 100644
+index 9bb2552..0000000
+--- a/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
++++ /dev/null
+@@ -1,40 +0,0 @@
+-com\shooping\ecommerce\service\controller\ItemController.class
+-com\shooping\ecommerce\service\entity\Pedido.class
+-com\shooping\ecommerce\service\entity\Usuario.class
+-com\shooping\ecommerce\service\entity\dto\GenerarPedidoDTO.class
+-com\shooping\ecommerce\service\exception\GenericExceptionHandler.class
+-com\shooping\ecommerce\service\entity\dto\PedidoConDetallesDTO.class
+-com\shooping\ecommerce\service\controller\DocumentoAlmacenadoController.class
+-com\shooping\ecommerce\service\controller\UsuarioController.class
+-com\shooping\ecommerce\service\App.class
+-com\shooping\ecommerce\service\repository\DetallePedidoRepository.class
+-com\shooping\ecommerce\service\service\DetallePedidoService.class
+-com\shooping\ecommerce\service\exception\FileStorageException.class
+-com\shooping\ecommerce\service\repository\CategoriaRepository.class
+-com\shooping\ecommerce\service\entity\Item.class
+-com\shooping\ecommerce\service\controller\ClienteController.class
+-com\shooping\ecommerce\service\service\FileStorageService.class
+-com\shooping\ecommerce\service\repository\ItemRepository.class
+-com\shooping\ecommerce\service\service\DocumentoAlmacenadoService.class
+-com\shooping\ecommerce\service\entity\DetallePedido.class
+-com\shooping\ecommerce\service\utlis\Global$Estado.class
+-com\shooping\ecommerce\service\repository\DocumentoAlmacenadoRepository.class
+-com\shooping\ecommerce\service\entity\Categoria.class
+-com\shooping\ecommerce\service\utlis\GenericResponse.class
+-com\shooping\ecommerce\service\config\FileStorageProperties.class
+-com\shooping\ecommerce\service\service\CategoriaService.class
+-com\shooping\ecommerce\service\utlis\Global.class
+-com\shooping\ecommerce\service\service\ItemService.class
+-com\shooping\ecommerce\service\service\UsuarioService.class
+-com\shooping\ecommerce\service\config\WebConfig.class
+-com\shooping\ecommerce\service\exception\MyFileNotFoundException.class
+-com\shooping\ecommerce\service\exception\SpecificExceptionHandler.class
+-com\shooping\ecommerce\service\service\PedidoService.class
+-com\shooping\ecommerce\service\controller\PedidoController.class
+-com\shooping\ecommerce\service\repository\PedidoRepository.class
+-com\shooping\ecommerce\service\service\ClienteService.class
+-com\shooping\ecommerce\service\entity\DocumentoAlmacenado.class
+-com\shooping\ecommerce\service\entity\Cliente.class
+-com\shooping\ecommerce\service\controller\CategoriaController.class
+-com\shooping\ecommerce\service\repository\ClienteRepository.class
+-com\shooping\ecommerce\service\repository\UsuarioRepository.class
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+deleted file mode 100644
+index 38f8ba9..0000000
+--- a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
++++ /dev/null
+@@ -1,39 +0,0 @@
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\CategoriaRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\CategoriaController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\ClienteController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\config\FileStorageProperties.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\CategoriaService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\ItemController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\Usuario.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\UsuarioRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\ItemService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\UsuarioController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\exception\GenericExceptionHandler.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\exception\MyFileNotFoundException.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\Categoria.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\config\WebConfig.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\ClienteService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\FileStorageService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\DocumentoAlmacenadoRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\DocumentoAlmacenado.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\DetallePedido.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\exception\FileStorageException.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\ClienteRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\App.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\dto\GenerarPedidoDTO.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\Pedido.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\PedidoRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\DetallePedidoRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\exception\SpecificExceptionHandler.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\repository\ItemRepository.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\Cliente.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\dto\PedidoConDetallesDTO.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\DetallePedidoService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\DocumentoAlmacenadoService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\PedidoService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\DocumentoAlmacenadoController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\utlis\GenericResponse.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\entity\Item.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\service\UsuarioService.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\controller\PedidoController.java
+-C:\ShoopingApp\src\main\java\com\shooping\ecommerce\service\utlis\Global.java
